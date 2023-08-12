@@ -1,0 +1,9 @@
+.circlelist{
+    list-style: circle;
+}
+.alphalist{
+list-style: lower-alpha;
+}
+.imglist{
+    list-style-image: url("../images/list.png");
+}

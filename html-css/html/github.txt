@@ -1,0 +1,48 @@
+
+	github.
+	version control system.. (SVN)
+	
+	we will push our code..
+	problem statement...
+	how to use github 
+	github...
+	
+	
+	4 members 
+	in same project...
+	how this 4 members will share the code ?
+		- manually (time consume ?)
+		- you working same files 
+		- history 
+		
+		10 files - project (12th-08)
+		A - 11 files 
+		B - 12 files 
+		c - 9 files 
+	
+	JIRA -
+		tracking of working 
+			jiraid -  create loing page 
+			plat-101 - crate login page 
+			plot-101: commit message 
+		
+		create branch 
+		create Pull reqeust 
+		what is code review
+		what is merge ... 
+		
+		
+		repository - its folder in github
+				   - can be public/private 
+		clone - coping the code github to local 
+		branch 
+		.readme file - its going to contain detail information about your project/ documenation of your project / steps to install project... 
+		
+		how to use github	
+			- git bash
+			- github for desktop 
+			- tortoize git 
+			- vscode 
+		
+		
+		

@@ -1,0 +1,40 @@
+p{
+    padding: 10px;
+    margin: 20px;
+}
+.text{
+    font-size: 17px;
+    font-style: italic;
+    font-family: arial;
+    font-weight: 900;
+}
+.word{
+    text-align: left;
+    word-spacing: 28px;
+    letter-spacing: 1px;
+    line-height: 43px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-indent: 35px;
+
+    color: #e00000;
+    background-color: #0000ff3b;
+
+}
+#imgbg{
+    height: 200px;
+    background-image: url(../images/imgbg.jpg);
+    background-attachment: fixed;
+}
+.expressions{
+    width: 124px;
+    height: 124px;
+    background-image: url("../images/istockphoto.jpg");
+    background-position:0px 122px
+}
+.style1{
+    background-position:0px 0px
+}
+.style2{
+    background-position:122px 122px
+}

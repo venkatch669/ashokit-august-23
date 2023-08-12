@@ -1,0 +1,15 @@
+.box{
+    margin: 20px 29px;
+    padding: 22px 32px 23px 51px;
+    border: 10px dotted #00ff62;
+    float: left;
+}
+.box h1{
+    color:red;
+}
+.box p{
+    color:blue;
+}
+p{
+    color:green;
+}
