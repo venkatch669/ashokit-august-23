@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+}
+.table{
+
+}
+/* table row -1 styles | started */
+.table .row1{
+
+}
+.table .row1 .col{
+    width: 33%;
+    height: 200px;
+    float: left;
+    border: 1px solid red;
+}
+.table .row1 .col img{
+    width: 100%;
+}
+/* table row -1 styles | end  */
+
+/* table row -2 styles | started */
+.table .row2{
+    background: #ececec;
+    display: table;
+}
+.table .row2 p{
+    width:50%;
+}
+.table .row2 .col{
+    float: left;
+    position: relative;
+    width: calc(20% - 20px);
+    border: 1px solid red;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.table .row2  button{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: #fff;
+    border: none;
+}
+/* table row -2 styles | end */
+
+
+.menu{
+    background: #3131ff;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+}
+.menu h1{
+
+}
+.menu ul{
+    float: right;
+    position: relative;
+}
+.menu ul ul{
+    position: absolute;
+    background: gray;
+}
+.menu a{
+    color:#fff;
+}
+.menu button{
+
+}

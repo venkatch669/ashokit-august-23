@@ -1,0 +1,94 @@
+Course    : React JS
+Duration  : 2 Months
+Date      : 03-Aug-2023
+Time      : 7:30 AM IST
+Trainer   : Mr. Venkat.CH
+Course Fee: 8,000/-INR (Live Classes + Videos Validity for 1 Year)
+Whatsapp Group Link For React JS Updates : 
+https://chat.whatsapp.com/DqZzXlXx4u3II2yL4lVptN
+
+React JS Payment Link : https://rzp.io/l/ashokit-reactjs
+--------------------------------------------------------------
+	we will start in few minutes...
+--------------------------------------
+	today is the last demo..
+
+	courseid: reactjs-7.30am 
+
+	html,css 
+	javascript -> core to adv..
+	typescript 
+	reactjs 
+	
+
+
+
+
+
+
+	HTML:- 
+		hyper text markup lang.. 
+		to develop web application.. 
+		latest version of 5x 
+		what we are going to learn : Tags.. 
+		<h1> 
+		<p>
+		<table>
+		using we prepare Structure webpage 
+		
+		
+	CSS:-
+	Cascading Style Sheets
+		what we are going to learn : properties..
+		add Styles to HTML 
+		
+		font-size:12px;
+		border:1px solid red;
+
+	by using html5, css3 - we can mobile friendly web site and webapplications..
+	
+	responsive websites - not good use the table 
+		html
+			div 
+		html5 
+			section
+			aside
+			figure 
+		-----------
+		css 
+			media queries
+			flex model 
+		---------------
+		bootstrap | materialui | foundation | antdesign |
+		
+		ie 
+		mozila 
+		chrome 
+		--------
+			chromium 
+			
+	----------------------------------------------------------
+		1) block level tags - whole space 
+			h1, p, table, div 
+		2) inline tags - how much space its required, if taking that much space 
+			img, span, b, i
+		=========================
+		a) symantic tags || meaningfull tags 
+			img, table, p, 
+		b) non-symantic tags  || user-defined
+			div, span 			
+			div - create structure of website 
+			span - to apply specific styles for in given text..
+		
+			what is box-model ?
+			what is flex-model ? 
+			what is diff between box-model and flex-model
+			
+		1. css ?
+			properties 
+			selectors of css 
+			
+			course code - 11-react-7.30am
+			
+			https://chat.whatsapp.com/DqZzXlXx4u3II2yL4lVptN
+			React JS Payment Link : https://rzp.io/l/ashokit-reactjs

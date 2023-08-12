@@ -1,0 +1,50 @@
+date: 11-08-23
+required softwares for further sessions:
+nodejs - https://nodejs.org/en
+git - https://git-scm.com/
+github- https://desktop.github.com/
+----
+we are going to disucss list tags and list properites 
+
+<p>
+<table>
+
+1. india 
+2. amercia
+3. china..
+
+	two different in html
+	order-list <ol>
+	un-order list <ul>
+	
+	
+<ul>
+	<li id="demo"> india </li>
+	<li> amercia</li>
+</ul>
+
+code validator 
+	- sonarqube 
+	- codeacy 
+	css : specifity.
+	margin:
+		is giving a space on outside of element 
+		one way 
+			margin:10px; // it will apply for 4 sides 
+			margin:10px 20px 30px 40px; top, right, bottom, left
+			margin:10px 30px; top&bottom, left&right 
+			margin-top:20px;
+	padding:
+		it will the inside space 
+	border
+		border-width:1px // think ness of border
+		border-style: dotter/solid - style of border 
+		border-color:red/blue 
+	
+	display:none/block/table/inline/inline-block;
+	visibility:hidden/visible
+	position: fixed/absolute/relative/static
+
+	flex model : css3 alternative to float
+
+

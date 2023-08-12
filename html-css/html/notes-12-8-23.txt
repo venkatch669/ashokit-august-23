@@ -1,0 +1,46 @@
+topic:display, visibility, positions and form elements
+
+1247	= 100%
+300*3  = 900 
+3 columns in one row 
+row -100%
+	100/3 =  33.33% 
+
+	100%/5 = 20% + 10px
+	100/6 = 18
+	
+	display:/
+	position:fixed,absolute,relative, static 
+	fixed: fixed to your screen - which is non-scrollable 
+	absolute: fixed to relative element - which is scrollable
+	relative: similar to static, which can control the boundaries of position absolute
+	static : default value of position and which scrollable
+	sticky:
+	
+	
+	forms 
+		text 
+		select 
+		radio
+		checkbox
+		button 
+		
+	topics to be covered on tomorrow.
+		
+	html5
+	css3 
+		::after
+		::before
+		:nth-child 
+		:even
+		:odd 
+	flex model 
+	responsive webdesign.
+	webpage.. 
+	
+	
+	nodejs 
+	git 
+	github for desktop 
+	---
+	github.com -> create an account 
