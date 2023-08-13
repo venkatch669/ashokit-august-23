@@ -1,0 +1,139 @@
+body{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width:1170px;
+    margin: 0 auto;
+    display: table;
+    float: none;
+}
+header{
+}
+header section {
+    float:left;
+}
+header section img {
+
+}
+header menu {
+    float: right;
+}
+header menu ul{
+
+}
+header menu ul li{
+    float: left;
+    list-style: none;
+    margin: 0px 10px;
+}
+header menu ul li a{
+    color: #424242;
+    text-decoration: none;
+}
+
+/*  slider css */
+.slider {
+
+}
+.slider img{
+    width:100%;
+}
+
+/* offerings css */
+.offerings{
+
+}
+.offerings figure{
+    float: left;
+    width: calc(14% - 42px);
+    margin: 0px;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.offerings figure img{
+    width: 50%;
+    height: 55px;
+    margin-bottom: 10px;
+}
+.offerings figure figcaption{
+    font-size: 12px;
+}
+
+/* pbadvtange css */
+.pbadvtange{
+    margin:40px 0px;
+
+}
+.pbadvtange h1{
+
+}
+.pbadvtange article{
+
+}
+.pbadvtange .pb-wrapper{
+
+}
+.pbadvtange figure{
+    float: left;
+    width: calc(20% - 42px);
+    border: 1px solid #ccc;
+    padding: 10px;
+    /* margin: 10px; */
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.pbadvtange figure img{
+    width:90%;
+}
+.pbadvtange figure figcaption{
+
+}
+.pbadvtange figure figcaption h2{
+    font-size: 20px;;
+}
+.pbadvtange figure figcaption p{
+
+}
+
+/* footer css  */
+footer{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 11px;
+    text-transform: capitalize;
+}
+footer p{
+
+}
+.showonlyinmobile{
+    display: none;
+}
+
+@media(max-width:768px){
+    .container{
+        width:90%;
+    }
+    .offerings figure{
+        width: calc(50% - 42px);
+    }
+    .pbadvtange figure {
+        width: calc(50% - 42px);
+    }
+    menu{
+        display: none;
+    }
+    .showonlyinmobile{
+        display: block;
+    }
+}
