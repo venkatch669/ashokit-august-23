@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <style>
+            /* div:nth-child(even){
+                color:red;
+            }
+            div:nth-child(odd){
+                color:green
+            } */
+            div:nth-child(4n+1){
+                background-color: blue;
+            }
+            div:hover{
+                color:red;
+            }
+            div:active{
+
+            }
+            div:focus{
+                background-color: red;
+            }
+            div::before{
+                content: 'MR.';
+            }
+            div:nth-child(even):after{
+                content:' (Microsoft)'
+            }
+        </style>
+    </head>
+    <body>
+        <ul>
+            <div tabindex="0">  divst -1 </div>
+            <div class="col" tabindex="0">  divst -2 </div>
+            <div>  divst -3 </div>
+            <div class="col">  divst -4 </div>
+            <div>  divst -5 </div>
+            <div class="col">  divst -6 </div>
+            <div>  divst -7 </div>
+            <div class="col">  divst -8 </div>
+            <div>  divst -9 </div>
+            <div class="col">  divst -10 </div>
+            <div>  divst -11 </div>
+            <div>  divst -12 </div>
+            <div>  divst -12 </div>
+            <div>  divst -12 </div>
+            <div>  divst -12 </div>
+            <div>  divst -12 </div>
+        </ul>
+    </body>
+</html>
