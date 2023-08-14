@@ -1,0 +1,82 @@
+
+	html,css
+	couples tags in html
+	properties in css 
+	div tag - webpage 
+	html5,css3 
+	responsive webpage...
+	---------------------
+	css3
+		flex model 
+		animation
+		bootstrap..
+::after
+::before
+::nth-child 		
+		
+		box-model:	
+			its combinations width, height, padding, margin, border 
+			to create stracture of web page including with dev 
+		flex- model:
+			replacmenet of float:left with can use flex-model 
+			along with it has other adv..
+				where we can change the order or elements, direction and easy of align the elements into one side one 
+				
+		
+		keyframes
+		 @keyframes identifier {
+            0%{
+				color:red;
+			}
+			50%{
+				color:green;
+			}			
+        }
+		.col{
+			animation-name:identifier,
+			animation-duration:10s;
+			animation-repeat:3;
+		}
+		0 1 2 3 4 5
+		CDN : content deliery network :
+		how to improve website perormance ?
+			1. use CDN links 
+				animate.css 
+				bootstrap.css 
+				
+		https://animate.style/
+		https://michalsnik.github.io/aos/
+		
+	:: psudo elements in css 
+	
+		::before 
+		::after 
+		::nth-child 
+		:hover 
+		:active 
+		:focus 
+	how to apply styles for only even list/li tag ?
+	what is accessibility
+	- website / webapp. which is comptable for phsycially desibled people 
+	
+
+	:: so far to build a website, we writing our own code 
+		html5, css3, animations. web-stracture.. 
+		
+	https://getbootstrap.com/
+	https://materializecss.com/
+	foundation
+	fabric 
+	antdesign 
+	tailwond 
+	
+	
+	will contain the common/frequest uses components/plugins as per your need/website 
+		css frameworks 
+		- frequent used components 
+		html,css - 10days 
+		bootstrap - 2days 
+			html,css - use that html/css 
+			is collection of classes.. ? 
+			imp. grid system... 
+		

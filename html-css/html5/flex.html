@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <style>
+            .row{
+                display: flex;
+                justify-content: center;
+            }
+            .col:hover{
+                transform: scale(1.5);
+                transition-duration: 1s;
+                font-size:10px;
+                color:red
+            }
+            @keyframes identifier {
+                50%{
+                    color:red;
+                }
+                100%{
+                    transform: rotate(360deg)
+                }
+            }
+            @keyframes textcolor {
+                0%{
+                    color:red;
+                }
+                50%{
+                    color:green;
+                }			
+            }
+
+            .col3{
+                animation: textcolor;
+                animation-duration: 10s;
+                animation-iteration-count: 2;
+            }
+            .col{
+                border:1px solid red;
+                padding:10px;
+                margin: 20px;
+                width:200px;                            
+            }
+            .col2{
+                animation-name: identifier;
+                animation-duration: 5s;   
+                animation-iteration-count: infinite;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col animate">
+                <h1> col-1</h1>
+            </div>
+            <div class="col col2">
+                <h1> col-2</h1>
+            </div>
+            <div class="col col3">
+                <h1> col-3</h1>
+            </div>
+            <div class="col">
+                <h1> col-4</h1>
+            </div>
+        </div>
+    </body>
+</html>
