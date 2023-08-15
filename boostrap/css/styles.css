@@ -1,3 +1,8 @@
 .img-logo{
     width: 150px;
 }
+@media(min-width:992px) {
+    .offerings .col-lg-2{
+        width:14%;
+    }
+}
