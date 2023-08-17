@@ -1,0 +1,20 @@
+html,css
+html5,css3 and bootstrap... 
+
+you can ask me if any question on above concepts.. 
+
+today we are going to javascript... 
+
+:::interview questions:::
+1. what is difference between html4 & html5 ?
+	symantic tags 
+	web api 
+	video tags 
+2. how do make your website as responsive ?
+	using media queries or boostrap 
+3. how to add animations to your website 
+	in css3, we have couple of properites
+	1. keyframes
+	2. transform:rotate(360deg)
+	3. animate.css 
+	

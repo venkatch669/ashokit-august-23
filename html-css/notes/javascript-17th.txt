@@ -1,0 +1,36 @@
+
+	javascript 
+	1. client side scripting programming language.
+	2. front end validations 
+	3. oops 
+	
+	intro of javascript ...
+		before es5
+			- add interactive 
+			- do form validations 
+		after es5
+			both server side and client side u	
+			- applications
+				- web applications
+					react, angular 
+				- desktop applications
+					electorn.js 
+				- mobile applications
+					react-native, iconic 
+					
+	do we need install anything to run javascript ?
+	 NO 
+		- it will run on browser
+		1. .js file -> excute on browser(client side)	
+			click, animations, slider, form validations...
+		2. .js file -> excute on nodejs(server side)
+			connect to the database, create rest endpoints, 
+			do CRUD on file
+		3. go the browser -> developer tool -> write js -> excute 
+		4. using nodejs 
+		
+		engine... 
+	problem statmenet... 
+		-> single page applications 
+		-> earlier 20%(javsscript) - 80% (server side programming)
+		-> min - 50% - 100% 
