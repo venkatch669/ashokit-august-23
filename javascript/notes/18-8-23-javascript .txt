@@ -1,0 +1,118 @@
+topic: varaibles, keywords, conditional statements..
+yesturday: 
+	what is javascript 
+	how it works 
+	where it works 
+		- browser
+		- using nodejs 
+	chromes uses the - v8 engine
+	-------------------------------
+		- fundaments of programming language.
+		1. variables
+		2. data types 
+		3. conditional statements 
+		4. iterating statements 
+		5. functions  
+
+		Ways of writing of JavaScript 
+		1.	Inline:
+		a.	Writing the javascript on specific elements we call it as inline javascript 
+		<button onClick=”handleClick()”>click </button>
+		Where we used exactly – primally into events 
+		2.	Internal
+		a.	In same .html file using  <script> 
+		3.	External 
+		a.	Using .js file, writing JavaScript code and including the .js file into .html 
+
+		Variable 
+			Which will store the data/value
+			What a datatype 
+		-	Primitive data type 
+		-	Non-primitive data types 
+
+		
+	var a=10+20;
+	
+	var - keyword 
+	a- variable name 
+	+, = -  operator 
+	
+	What is Variable Declaration ?
+		var a;
+		console.log(a); 
+	What is Variable initialization 
+		var a=10;
+	What is Variable Assignment  ?
+		var a=10+20;
+	What is Variable Hoisting ?
+		a=10;
+		console.log(a) //undefined 
+		var a;		
+		---------------------
+		first step it will go through whole code - 
+		where ever it sees, var keyword -  we will values will be assigned into window 
+		
+		window 	- going to contain the window based function 
+		document - sub object of window object, which will help to do DOM 
+	
+		the solutions 
+			let & const 
+			let a;
+			
+	what is first class citizen in javascript ?
+		function
+	
+	datatypes 
+		let no=10;			// number 
+		let isActive=true ;	// boolean
+		let name="venkat"   // string;
+		...
+		.
+		.
+		.
+		100th 
+		name// 
+		name=10;
+		
+		// typescript... 
+		let no:number=10;
+		..
+		.
+		.
+		100th 
+		no="venkat";
+		
+		
+		in java::
+		string name="venkat"
+		int no=true;
+		
+		
+		1.Primitive Types:
+			string
+			number 
+			let a=10;
+			let b="vnekat";
+		
+		2. no-Primitive Types
+			var a={name:"venkat", no:10}
+			
+		6.30 - 7.30 
+		
+		Saturday (7am - 8.30am)
+			half-hour - reacp 
+				html5,css3 & bootstrap - interview pointview 
+			7.30 to 8.30 
+				continutation of javascript 
+				
+		Sunday (7am -8.30am)			
+			half-hour
+				github-command 
+			7.30- 8.30 
+				continutation of javascript 
+				
+			
+
+	
+	
+	
