@@ -1,0 +1,170 @@
+
+	html5 & CSS3 & bootstrap & materilizecss 
+	
+	what is flex model ? 
+		instead of going with float:left to align elements into inside we can use flex model 
+		1. display:flex;
+		- we can align elements in inside one 
+								in reverse order 
+								in column order 
+	---
+	what is web storage 
+		what is diff between session storage(5mb) & local storage (10mb)
+		- to store any of data - cookie (4kb)
+		- accessing the values from session/local storage much easer compare to cookie 
+		- session storage - data will persisst until you close the browser 
+			- token | session | auth -
+		- local storage - data will persisst until you remove manually 
+			- iframe to iframe
+			- one tab another tab 
+
+	------------------------------------------
+			
+			SPA
+				- single page application -> redux 
+				- reload - intilization 
+					var a=10;
+				- local storage
+	-----------------------------------------
+	what are the new html5 tags 
+		section 
+		article 
+		aside 
+		figure 
+		figcaption 
+		menu
+		nav 
+		dataset 
+		- adv ?
+			-symantic tags (meaningful tags) 
+			-search engine will reasily recog.. and 
+	-------------------------------------
+	how to build a responsive website site ?
+		- using bootstrap
+		- using media queries 
+		
+		what is media query..
+			we can write the css code by identitfying the screen size 
+			@media (max-width:800px){
+				...
+			}
+			
+			what are the recommeded screen sizes for to build responsive website 
+			
+				1. desktop - >992px 
+				2. tablet  - >768px 
+				3. mobile  - <768px
+
+	-----------------------------
+	1. what is bootstrap & and why we needed it ?
+		- bootstrap is css framework | used to build responsive website in quick way.
+		- boostrap more interactive components
+		
+	2. do we have any similar librarry/ framework like boostrap ? 
+			
+			yes, materialize, tailwand, etc...
+		
+	3. what is grid system in bootstrap 
+			it will make our website responsive,
+			12 column grid 
+			based on required - respective class 
+			4 column grid in row 
+			12/4 = 3 
+			col-3 based on screen 
+				col-lg
+				col-sm 
+				col-xs 
+				col-xxl 
+				
+	4. let's say we have req.. 7 columns in a row ? how do that using bootstrap ?
+				yes, we can do using boostrap grid system.. 
+				we will using col-2 - top of it we will write our owe custom media queries 
+			
+	5. what are the colors are avilable from boostrap ?
+		primary 
+		secondary 
+		success 
+		warning 
+		danger
+		info 
+		light 
+		
+	------------------------------------------------
+	react & material ui
+	angular & bootstrap & ngmaterial 
+	website 
+		bootstrap 
+	-------------------------------------------------
+	
+		javascript ?
+			- intro 
+			- what is importance.. 
+			- javascript excute.. 
+				- in browser 
+				- is there any way using - nodejs 
+			- javascript engine 
+				what it does .. ?
+				javascript -> c++ -> 10101
+			  IE - chakra 
+			  chrome -v8 
+			  mozila- spider monkey 
+			  
+			  ** cross browser compability 
+			
+			- how many ways including in html 
+				1. inline 
+				2. internal 
+				3. external ** 
+			- how to create a variable 
+				using var, let & const 
+				- variable hosting.. 
+			- datatypes 
+				string name="venkat";
+				name= 10;
+				its not strict typed lanaguages
+				- loosely 
+				- dynamic typed 
+				let a=10;
+					a="venkat";
+				
+				var data = {}/ 1mb of data ; || null 
+				
+			Non-Primitive datatypes
+				- mutable 
+				- complex objects..
+				
+				var a="venkat";
+				var b=10;
+				
+				// array is collection of homogenious/similar elements
+				var ar=[10,203,40,05,50];
+				
+				how many ways can create array ?
+				1 .var ar=[10,203,40,05,50];
+				2. var ar = Array(10,30,05)
+				
+				// object - is collection of datatypes/hetrogenious elemements 
+					its follow key:value pair 
+					let obj={
+						"name":"venkat",
+						"no":12
+					}
+				JSON - javascript object notation..
+				
+		1. what is mutabiliy and imutability.. 
+		
+					
+				
+			
+			  
+	
+		
+	
+		
+			
+					
+		
+		
+								
+	
+	
