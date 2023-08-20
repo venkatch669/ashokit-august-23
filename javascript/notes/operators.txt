@@ -1,0 +1,63 @@
+
+	
+	operand
+	operator 
+		- unary operator (only one operand)// incremenet & decrement 
+		- binary operator ( if you performing operation on two operands is callled binary operator)
+		- ternary operator 
+			? : 
+			var a=10;
+			var b=20;
+			<condition>? <option1> : <option2> 
+			if(a>b ? a: b);
+ 		
+		var a=10;
+		var b=20;
+		var c=a+b;
+		
+		Arithmetic Operators:
+
+		// var no1=10;
+		// var no2=20;
+		// console.log("addition", no1+no2);
+		// console.log("sub", no1-no2);
+		// console.log("mul", no1*no2);
+		// console.log("div", no1/no2);
+
+		// console.log("div", no1++);
+
+		var no2=20;
+		var a=no2++;
+		console.log("post increment", a)
+
+		var no2=20;
+		var a=++no2;
+		console.log("pre incremenet", a)
+		// a++ // a=a+1;
+		// a-- // a= a-1;
+		// console.warn(no);
+
+		var a=10;
+		var b = ++a  + 10;
+		console.log(b);
+		// post increment 
+		// pre increment 
+
+		// == vs === 
+	
+	::Comparison Operators::
+		var a=10;
+		var b=20;
+		var c=20;
+		var d='20';
+		console.log(">", a>b);
+		console.log("<", a<b);
+		console.log("==", b==c)
+		console.log("==", d==c)
+		console.log("===", d===c)
+
+		console.log(a+b)
+		console.log(a+d)
+
+		// eslint 
+		// tslint 
