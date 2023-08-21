@@ -1,0 +1,58 @@
+
+topic: if, else if, else, 
+	conditional statements... 
+	var a=10;
+	var b=20;
+	var name="venkat";
+	if(name=="venkat"){
+		alert("a is bigger")
+		...
+		.
+		.
+	}
+	else if(name=="rajesh"){
+	
+	}
+	else if(name=="raj"){
+	
+	}
+	else if(){
+	
+	}	
+	else{
+	
+	}
+	// write a program to print 1-20 number;
+	console.log(1);
+	console.log(2);
+	console.log(3);
+	console.log(4);
+	...
+	..
+	.
+			1			2,5,8		4,7
+	for(intilization; condition; update){
+			.... block of code -3,6,9
+	}
+			
+	for(let i=1;i<4;i++){
+		console.log(i)
+	}
+	-----------------------------
+	while loop syntax:
+	---------------------
+	intilization
+	while(condition){
+    ...
+		update
+	}
+	
+	-----------
+	do.. while 
+	
+	
+	do{	
+		... 
+		intilization;
+		update
+	}while(condition)

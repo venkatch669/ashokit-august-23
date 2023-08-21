@@ -13,3 +13,8 @@ console.log("!", !true);
 
 console.log(100 && 100);
 console.log( false  || 10)
+
+8 - 1000
+    2(3)
+    2(2)
+    
