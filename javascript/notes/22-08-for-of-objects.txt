@@ -1,0 +1,77 @@
+topic: for...of, for.. and Function
+
+	var obj={
+		name:"venkat",
+		sno:1,
+		marks:[10,203,40,50],
+		address:
+		fullname
+		lastname
+		pincode
+		phonenumber
+		emailid;
+	}
+	// you know exact key, which one you want use.. 
+	console.log(obj.name);
+	console.log(obj.sno)
+	
+	// dynamically you would like to use the key 
+	var a="name";
+	console.log(obj[a]);
+	
+		
+	for(let key of obj){
+		console.log(obj[key]);
+	}
+	
+	
+	:: Function ::
+	-- a peice of code, use it where it is required..
+	-- DRY don't repeat your self.. 
+	
+	function demoFun(){ //function declaration 
+		...
+	}
+	demoFun(); // function calling.. 
+	demoFun();
+	demoFun();
+	demoFun();
+	
+	1. normal/named  function.. 
+	2. peramiterilzed function 
+	
+		demoFun(10);
+		function demoFun(arg){
+		
+			console.log(arg);
+		}
+	3. return function 
+		var result = demoFun(10); => 	var result = 20; // 
+		console.log(result); //20 
+		function demoFun(arg){	
+			return arg+arg; //20
+		}
+	4. call back 
+	5. iife
+	
+	
+	Hoisting is a JavaScript mechanism where variables and function declarations are moved to the top of their scope before code execution.
+	
+	// write a program to get sum of given 4 numbers... 
+	// write a program to to list given names of array of object..
+		var records=[
+			{
+				name:"venkat",
+				sno:1
+			},
+			{
+				name:"sandeep",
+				sno:2
+			},
+			{
+				name:"raj",
+				sno:3
+			}		
+		]
+	
+	
