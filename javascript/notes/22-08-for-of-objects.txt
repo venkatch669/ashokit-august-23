@@ -75,3 +75,45 @@ topic: for...of, for.. and Function
 		]
 	
 	
+	let sum =0;
+	for(let i=1;i<=10;i++){
+		let value = prompt("please enter number " );
+		console.log(typeof(value))
+		if(!isNaN(value) && typeof(value)=='number'){
+			sum = sum+parseInt(value);
+		}
+	}
+	console.log("Sum of the given numbers are : ",sum)
+	prompt("Sum of the given numbers are : ",sum)
+	
+	var records=[
+			{
+				name:"venkat",
+				sno:1
+			},
+			{
+				name:"sandeep",
+				sno:2
+			},
+			{
+				name:"raj",
+				sno:3
+			}		
+		]
+		
+	let a =console.log(Object.keys(records))
+	console.log("length of the a value  :  ",Object.keys(records).length);
+	console.log("keys and values :  ",Object.values(records));
+	for(let i=0;i<Object.keys(records).length;i++){
+	   console.log(records[i].name);
+	}
+
+	-----------------------
+	for (var i = 0; i < records.length; i++) {
+		console.log(records[i].name);
+	}
+	console.log("List of names:")
+
+
+	chatgpt
+		-- NPA, AI, data sceince 

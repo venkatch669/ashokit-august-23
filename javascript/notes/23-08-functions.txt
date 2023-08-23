@@ -1,0 +1,43 @@
+topic: functions, Arrays, Objects & Strings in javascript
+
+	function: 
+		- a block of code, which will excute a logic...
+		- re-usability 
+		- scoping...
+		
+	passing a function as Parameters 
+	
+	function demoFun(a, b){
+		console.log(a+b);	//10
+	}
+	
+	
+	var a1=10;
+	var b1=20;
+	demoFun(a1,b1);
+	
+	var afun =20;
+	var afun =()=> {
+		console.log("arrow function")
+	}
+	
+	demoFun(afun,10);
+	
+	
+	:: array :: 
+	is it collection of mixed values
+				0  1  2 .....
+		var a=[10,30,40,50,60];
+			console.log(a[1])
+			console.log(a[4])
+		
+		//::interview:: what is the diff. between  map, foreach, filter and reduce 
+			-> where we use filter and reduce 
+				-> which one follow the mutablity and immutablity 
+				
+		//:: interview :: 
+			1.I have a student record 
+				
+		
+		
+		
