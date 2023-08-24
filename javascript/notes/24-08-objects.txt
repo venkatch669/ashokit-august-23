@@ -1,0 +1,81 @@
+topic: Arrays, Objects & Strings in javascript
+
+
+	forEach 
+	map 
+	filter 
+	push 		- will add element at the end
+	pop
+	unshift		- will add element at first 
+	shift
+	reduce 		- 
+	
+	var a = [10,20,40,50];
+	a.forEach((e)=>{
+		console.log(e)
+	});
+	
+	a.reduce((acc,e)=>{
+		console.log(e)
+	})
+	
+	----
+	setTimeout
+	setInterval 
+	clearInterval 
+	
+		async 
+			promises
+			async/await
+			setInterval
+			setTimeout
+	----
+	Objects 
+		objects functions 
+		
+		var obj={
+			"name:"venkat",
+			"getName":function(){
+				alert("test");
+			}
+		}
+		
+		var student:{
+			name:"venkat",
+			address:{
+				padress:{
+					zipcode:'1231231'
+					town:
+					district:
+				},
+				caddress:{
+					zipcode:
+					town:
+					district
+				}				
+			}
+		
+		}
+		
+		student.name; 
+		
+	--
+	String functions 
+	
+	
+	1. what is callback function
+	2. what is return function 
+	3. mutability vs immutablity 
+	4. what are the possible ways to create object in javascript 
+		var obj={} 
+		var obj= Object.create({})
+	5. what are the possible ways to create immutable object 
+		1. object.assign  function 
+		2. spread operator 
+		3. cloneDeep 
+		
+	6. shallow copy vs deep copy 
+	7. spread vs rest operator
+
+
+	

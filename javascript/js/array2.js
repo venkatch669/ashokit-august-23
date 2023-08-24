@@ -22,4 +22,3 @@ var students=[
 ];
 
 console.log(students.every((e) => e.passed==true))
-

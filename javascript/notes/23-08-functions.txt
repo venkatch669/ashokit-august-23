@@ -37,6 +37,34 @@ topic: functions, Arrays, Objects & Strings in javascript
 				
 		//:: interview :: 
 			1.I have a student record 
+			
+	// write a program to get the list of failure students from given object, 
+	// write a program to get the total marks of "venkat" from given object  
+	 const students =[
+	 {	
+		 name:"venkat",
+		 marks:[50,60,70,80,80,90],
+		 passed:true,
+	 },
+	 	 {	
+		 name:"sandeep",
+		 marks:[50,20,70,80,80,90],
+		 passed:false,
+	 },
+	 	 {	
+		 name:"raj",
+		 marks:[10,60,70,80,80,90],
+		 passed:false
+	 },
+	  {	
+		 name:"ankit",
+		 marks:[90,60,70,80,80,90],
+		 passed:true
+	 }]
+	 
+	 - should use functions 
+	 
+	 
 				
 		
 		
