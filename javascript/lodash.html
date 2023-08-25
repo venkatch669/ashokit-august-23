@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js" ></script>
+        <script src="./js/lodash-string.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <h1> Lodash</h1>
+        <p>A modern JavaScript utility library delivering modularity, performance & extras.</p>
+        <ul>
+            <li>_.cloneDeep(value)            </li>
+        </ul>
+        <h1> String functions </h1>
+        <pre>var name="venkat";
+undefined
+name.length
+6
+name.concat("ch")
+'venkatch'
+name.substring(0,3)
+'ven'
+var val = "This method is like _.clone except that it recursively clones value."
+undefined
+val.indexOf("_")
+20
+val.indexOf("_asdf")
+-1
+val.lastIndexOf("t")
+41
+val.indexOf("t")
+7
+val.includes("this") 
+false
+val.includes("This") 
+true
+val.tolincludes("this") 
+VM847:1 Uncaught TypeError: val.tolincludes is not a function
+    at <anonymous>:1:5
+(anonymous) @ VM847:1
+val.toLowerCase().lincludes("this") 
+VM861:1 Uncaught TypeError: val.toLowerCase(...).lincludes is not a function
+    at <anonymous>:1:19
+(anonymous) @ VM861:1
+val.toLowerCase().includes("this") 
+true
+</pre>
+
+<h1> Date object</h1>
+<p>JavaScript Date objects represent a single moment in time in a platform-independent format. Date objects encapsulate an integral number that represents milliseconds since the midnight at the beginning of January 1, 1970, UTC (the epoch).</p>
+<ul>
+    <li>new Date().getMonth()</li>
+    <li>new Date().getHours()</li>
+    <li>date.getHours()</li>
+    <li>date.getMinutes() </li> 
+    <li>date.getSeconds()</li>
+</ul>
+    <h2> Moment.js </h2>
+    <p>A JavaScript date library for parsing, validating, manipulating, and formatting dates.</h2>
+    </body>
+</html> 
+

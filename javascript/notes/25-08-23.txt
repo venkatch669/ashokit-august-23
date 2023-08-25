@@ -1,0 +1,52 @@
+topic: string functions.. other few other objects, exception handling.. 
+
+functions:
+	a peice of a code, re-usable 
+	DRY - 
+		1. pre-defined	(javascript will give list of functions)
+						- window 
+						- document
+						- Object 
+						- Math
+						- date 
+						- history 
+						- array functions 
+							- underscore -> lodash 
+						
+		2. user-defined
+						- user will write his own functions 
+						- scope 
+			
+			
+			var name="venkat";
+				console.log(name[0]);
+		
+		:: lodash library ::
+		Lodash is a JavaScript library that helps programmers write more concise and maintainable JavaScript.
+		- shallow & deepcopy 
+			- spread
+			- object.assign 
+			- deepcopy 
+		::String Functions::
+			- concat
+			- indexof
+			- tolowercase()
+			... 
+		::Date Object :: 
+			- we can the system date using javascript built-in object 
+			- new Date()
+			:Moment.js: 
+				- library to manipulate and transform on date 
+				
+		:: Math Object ::
+			https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math
+			
+			- Write a program find the maximum number in given 10 numbers 
+			- write a program to get the power 5 of 2
+		
+		:: History Object:: 
+			https://developer.mozilla.org/en-US/docs/Web/API/History
+			- Write a progra to history your our page 
+		
+			
+		
