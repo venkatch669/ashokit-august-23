@@ -1,0 +1,88 @@
+:: anonymous function::
+- a funtion which don't have any name we called it as anonymous function 
+
+var a = function(){
+	...
+}
+
+how will you excute.. 
+
+	1. you can assign it variable -> using that variable you can call it 
+	2. iife (immediate inovekable function expression) 
+	
+		(function(){
+			....
+			var a=10;
+			...
+		})();
+		
+		
+:: scope ::
+	- global			- the variable/function can be accessibile for across the code 
+	- block level		- the variable/function can be accessible with in a block , ex: if, for, any {} function
+	- lexical scope
+	
+demoFun();
+	
+	let name="venkat";
+	function demoFun1(){
+	
+		let name="rajesh";
+		let a1=10;
+		console.log("name", name);
+		console.log("a1", a1);
+		
+		function demoFun2(){
+			let a2=20;
+			console.log("name", name);
+			console.log("a2", a2);
+			
+			function demoFun3(){
+				let name="sandeep";
+				let a3=30;
+				console.log("name", name);
+				console.log("a3", a3);
+			}
+		
+		}
+	
+	}
+	---------------------
+	<script src="file1.js"/> -> global 
+	<script src="file2.js"/> -> ?
+	
+:: callback function ::
+
+	function demoFun(a,b){
+		return a+b;
+	}
+	var result = demoFun(10,20);
+	console.log(result) // 30 
+	
+	function demoFun(a){
+		console.log(a); //10 
+	}
+	
+	var a=function(){
+		console.log("----nested function");
+	};
+	demoFun(a);
+	adv:
+		1. you can access parent scope 
+		2. re-usability 
+	
+	function f1(c){
+		let a=10;
+		let b=20;
+		console.log(a+b);	
+		c();
+	}
+	function f2(){
+		console.log("f2")
+	}
+	f1(f2);
+	
+	
+	
+	
+	

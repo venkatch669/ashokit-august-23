@@ -43,7 +43,7 @@ functions:
 			
 			- Write a program find the maximum number in given 10 numbers 
 			- write a program to get the power 5 of 2
-		
+
 		:: History Object:: 
 			https://developer.mozilla.org/en-US/docs/Web/API/History
 			- Write a progra to history your our page 

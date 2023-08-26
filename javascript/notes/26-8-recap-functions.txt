@@ -1,0 +1,60 @@
+topic: recap functions.. iife, clousure, event loop, ... functional programming.. 
+	- user defined functions 
+		- function declaration 
+			
+			demoFun();
+			
+			function demoFun(){
+				...			
+			}
+								
+			hoisting -> var, function -> java engine will allocate memory var & function keyword  
+			
+					
+		- function expression
+			let demoFun = function(){
+				... 
+			}
+			
+			
+			
+			
+		- arrow function 
+		
+	:: event loop :: 
+		javascript is single thread.. 
+		thread - it will take your code, excute... 
+		when you have multi threaded lang.. 
+			-> it will parallel tasking.. 
+			
+		heap : allocating the memory 
+			var a=10;
+			function demo(){
+				...
+			}
+		call stack
+			stack: LIFO 
+			
+			
+			function a(){
+				c();
+			}
+			
+			function b(){
+				
+			}
+			
+			function c(){
+				b();
+			}
+			
+			function d(){
+				a();
+			}
+			
+			
+			d();
+			
+		web api 
+		
+			
