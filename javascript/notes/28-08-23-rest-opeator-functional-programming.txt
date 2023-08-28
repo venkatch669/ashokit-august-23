@@ -1,0 +1,94 @@
+
+--functions 
+	- imp?
+	-> how to write a function 
+	-> pre-defined
+	-> user defined
+		-> callback
+		-> anonymous function
+		-> return 
+		-> peramiterilized function 
+		-> clousure
+		
+		
+		::arguments::
+		arguments is an array-like object accessible inside functions that contains the values of the arguments passed to that function.
+		
+		::rest operator:: 
+		1. The rest parameter syntax allows a function to accept an indefinite number of arguments as an array, providing a way to represent variadic functions in JavaScript.
+		2. rest operator supposed to use at the end.
+		function demoFun(a, b, c){
+			console.log(a+b+c) // 60
+		}
+		
+		demoFun(10,20,30,40);
+		
+		
+		
+		function demoFun(a,...args){
+			console.log(a+b+c) // 60
+		}
+		function demoFun(){
+			console.log(arguments) // though it is not peramiterilized a function, still you can access perameters using arguments variable 
+		}
+		
+		demoFun(10,20,30,40,50,60);
+		
+		interview question ?
+		:: I would like to pass values, but i don't want accept the values, but I would like access the values which I am passing. 
+			-arguments 
+		:: what is diff between rest operator and spread operator
+			rest operator - we will rest operator to accept other than mentioned perameters, we will use in functions 
+			spread operator - to create copy of array/object with immutabilty case we use the spread operator
+							=  {...obj}
+							= obj={
+								name:"venkat",
+								sno:"1"
+								}
+								...obj 
+		
+		-> functional programming 
+			- re-usablity 
+			- immutability 
+			- no side effects 
+			- stateless 
+			
+			-> always create of existing/refering object
+			-> not support mutablity 
+			-> react - component -> functional programming priniciples 
+			
+			:: what are the priniciples::
+				1. higher order functions 
+									1. is peramiterilized function, which will accept function as parameter and return the parameter/function 
+									
+									
+									function demoFun(a){
+										var num=10;
+										return a(num);
+									}
+									let a = function(n){
+										console.log(n);
+									};
+									demoFun(a)	
+								
+									1. filter 
+									2. map 
+									3. forEach 
+									4. promises 
+									
+										
+									
+				2. pure functions : 1. a normal function, which will accept the values, won't do mutable logic 
+									2. it return values 
+				3. curring 
+				4. function composistion 
+								-> your logic supposed more splited into multiple functions 
+				5. clousure
+							1. clousure
+								- is nested function which going to access the parent scope and return the values 
+							 -  memorization 
+							 
+			
+			
+			
+			
