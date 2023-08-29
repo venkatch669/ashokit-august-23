@@ -53,9 +53,34 @@
 			- no side effects 
 			- stateless 
 			
+			-> imperative 
+				// print some of array values 
+				var arr = [10,30,50,60,90];
+				var total= 0;
+				for(var i=0;i<arr.size;i++){
+					total = total+ arr[i];
+				}
+				
+			-> declartive 
+				var arr = [10,30,50,60,90];
+				
+				()=>{} //
+				function(){
+				
+				}				
+				
+				var total = arr.reduce((acc, ele)=>{
+					acc = acc+ ele;
+				},0);
+				
+				Imperative programming specifies and directs the control flow of the program. Declarative programming specifies the expected result and core logic without directing the program's control flow.
+				
+			
 			-> always create of existing/refering object
 			-> not support mutablity 
 			-> react - component -> functional programming priniciples 
+			
+			(react) component = function (javascript)
 			
 			:: what are the priniciples::
 				1. higher order functions 
@@ -76,18 +101,118 @@
 									3. forEach 
 									4. promises 
 									
+									[].filter((e)=>{
+										return e%2==0
+									})// all the even number of given array 
+									
 										
 									
 				2. pure functions : 1. a normal function, which will accept the values, won't do mutable logic 
 									2. it return values 
+									
+									var c=0;
+									function demoFun(a,b){
+										return a+b;
+									}
+									var result = demoFun(10,30)
+									console.log(result);
+									------------------
+									
+						impure function: a function which not following pure function priniciples, is called impure function..
+									
+									var a=[];
+									function demoFun(val){
+										a.push(val);
+									}
+									demoFun();
+									console.log(a);
+									
+									--------------------------
+									
+									var a=[];
+									function append(val){
+										var b=a.concat(val);
+										return b;
+									}
+									var result = append(10);
+									console.log(result)
+									console.log(a)
+									
+									
+									
+									
 				3. curring 
+							function employee(val){
+								var name=val;
+								
+								function getTaxableAmount(salary){
+								
+									var totalTaxableAmount = salary;
+									
+									function getTotalTax(taxBracket){
+										console.log(name);
+										return (totalTaxableAmount * taxBracket /100)
+									}
+									
+									return getTotalTax();
+								}
+								return getTaxableAmount();
+							}
+							employee("venkat")(1000000)(5)
+							var recordofEmployee = employee("venkat")
+							var taxableAmount = recordofEmployee(1000000);
+							taxableAmount(5);
+							
 				4. function composistion 
+							function employee(val,fun){
+								var name=val;
+								return fun(name,'new');
+							}
+							
+							function getTaxableAmount(name, salary, regime){
+								var totalTaxableAmount = salary;
+								if(regime==='new'){
+									return totalTaxableAmount - 700000;
+								}
+								
+								return totalTaxableAmount-250000;								
+							}
+							function getTotalTax(taxBracket, fun){
+								fun()
+								console.log(totalTaxableAmount * taxBracket /100)
+							}
+							
+							console.log(getTotalTax(5%,getTaxableAmount(1000000,employee("venkat")),) )
+								
+							
 								-> your logic supposed more splited into multiple functions 
 				5. clousure
 							1. clousure
 								- is nested function which going to access the parent scope and return the values 
 							 -  memorization 
 							 
+							 function getObj(value){
+								var initalValue =value;
+								function increment(){
+									return initalValue++;
+								}
+								function decrement() {
+									return initalValue--;
+								}
+								return {increment, decrement}							 
+							 }
+
+							var result = getObj(10);
+							console.log(result.decrement()); //10
+							console.log(result.decrement()); // 9
+							console.log(result.decrement()); //8
+					
+					var obj={name:"raju"}					
+					var copyobj=obj;
+					copyobj.name="venkat";
+					
+					copyobj; // venkat 
+					obj // venkat ;
 			
 			
 			
