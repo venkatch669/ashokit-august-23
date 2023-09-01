@@ -1,0 +1,32 @@
+topic: exception handling
+we will wait for few minutes ...
+	error 
+		-> compile time error / typescript 
+		-> run time error (exceptions)
+		
+		1
+		.
+		.
+		50th - line 
+		.
+		.
+		100lines 
+		
+		try{
+		
+			//code (possibility of getting run time run) 
+		}
+		catch(ex){
+			// handling the error 
+		}
+		finally(){
+			// 1. close the db conections
+				2. for memory clean 
+			// last excuation step of try 
+		}
+		
+		
+
+---------------------------------------------
+saturday - recap - 7.30am - 9.30am => 30mins 
+sunday   - agile - 7.30am - 9.30am => agile    	
