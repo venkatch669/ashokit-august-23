@@ -1,0 +1,44 @@
+agile - most used tools as part agile ...
+	
+	git 	- code of development 
+	jira 	- is a tool to monitor our agile format, 
+		which sprint we are running  on
+		how many days of sprint 
+		stories 
+		pointer 
+		who is working 
+		what is the status of the story 
+		
+		sprint-4
+		.
+		..
+		sprint-10(active)
+		.
+		.
+		sprint -15
+		
+	confluence - writing documents(project arechitecture) 
+	jenkins - build pipeline to deploy the code into env.
+	
+	pi-1 (project)
+		epic (sub catogiries of project)- ex:i18n
+			story (i18n login page, i18n -home page)
+				task 
+				defects...
+	-------------------------------
+	q1, q2... q4... 
+	
+	budgetting 
+	12/4 - 3months 
+	------------------------------------
+	enrollTable(epic) 
+		- we are creating a feature - where you can create table from UI...
+		- [UI] - develop the screen - react & materal ui 
+		- [serverside] - develop the api (java & microservices) -> create the db script
+		
+		
+		
+		-> create a table 
+		
+	- table 
+		script (mysql, sql, .... etc..)

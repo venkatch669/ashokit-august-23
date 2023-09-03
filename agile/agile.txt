@@ -1,0 +1,107 @@
+...agile & jira...
+
+software engineering lifecycle .. 
+requirements
+planning
+designing
+developing
+deployment
+testing
+------------------------> e-commerce application  --> 
+1.requirements
+	1. home page 
+	2. login/signup
+	3. product listing
+	4. product detail page
+	
+	a. i18n 
+	b. highly scallable - (azure | aws)
+	c. offers page 
+	---------------------
+2. planning/design 
+	1. which technology 
+	2. number resources 
+	3. timelines 
+	4. which SLDC methodology 
+	5. prepare doc with architecture... 
+	---------------------
+3. development
+	- water fall (feature based development)
+	- home page 
+		client req -> deployment -> once with complete development of home page -> deploy -> give it to client 
+		2 months
+		- client x req.
+		- team y req. 
+				-> static with out any animations
+		-> 
+		
+		cons:
+			-> no engagment between client and team 
+			-> no quick response/feedback 
+			-> after months -> you go review  client will suggest some changes 
+				-> re-development 
+				-> project ended
+		---------------------
+		
+		AGILE methodology...
+			15 DAY'S (sprint)
+				11 days - working days 
+				4 days - holidays(sat&sun)
+			front end developer 	-1
+			backend end developer   -1
+				home page 
+					1. menu 		- 5pointer(5 days)		
+					2. banner       - 7pointer (6 days) 
+					3. list of proudcts -  sandeep(5points) 
+										- sreekanth(10points)
+					4. footer 
+					5. i18n 
+					6. animations 
+					
+			develop -> demo -> develop
+		
+		sprint - 0 ( 1month, 15 days) 
+			- esitmations 
+			- resources 
+			- collect the documents 
+			- plan for how to develop 
+		sprint-1
+		.
+		.
+		.
+		.
+		sprint-100
+		.
+		.
+		1 week, 2 week, 3 week sprint... 
+		
+		sprint master (lead, manager)
+			1. sprint retrospective (before getting started the sprint)
+				- what we delivered in last sprint
+				- do we see any improvements 
+				- identifying the resource skill
+				- giving recog.. 
+			
+			2. sprint planning(we are going to discuss what we need deliver next sprint)
+				- what we plan for current/future sprint 
+				- how many points you required to develop 
+				- do you have any depedency other developers 
+				- do you have any leave request.. 
+					4 days	
+								
+			3. standup(15mins) 
+				- to discuss what we developing / 
+				- task update
+				- do we have any depedency
+				- we can continue positive path 
+				- spillover the story (moving the story into sprint)
+				
+			4. sprint demo (last working day of sprint)
+				- in 15 days what ever developed 
+				- workable demo to upstream/down steream patern or client 
+				- demo inputs
+				
+							
+				
+				
+		
