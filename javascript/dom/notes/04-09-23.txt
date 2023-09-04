@@ -1,0 +1,32 @@
+topic: javascript DOM
+DOM stands - document object model...
+
+	- programming 
+	- dom - we add dynamic styling/actions or  interactivity
+	- oops 
+	
+	- selectors 
+	- predefined methods of javascript DOM 
+	------------------------------------------
+	jquery 
+	
+	what are the selectors in css ?
+		1. id 
+		2. class 
+		3. tag 
+		
+		javascript DOM 
+		I) window 	- whole browser/tab  can controlled by using window object 
+		II) document - sub object window / the view area we can document object ..
+					  - 
+		
+		1. getElementById
+			document
+		
+		how to improve the appliation performance ? 
+			1. move the script/javscript files to the bottom of page... 
+		what is event bubulling & event capturing & event propagation  ? stop propagation... 
+			
+		e-commerce (AEM/CMS -wordpress, drupal)
+			- customer directly add products/can change the text ... 
+
