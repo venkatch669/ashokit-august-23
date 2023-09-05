@@ -1,0 +1,27 @@
+topic: DOM
+	events :
+		1. inline events 
+			<button onClick=""> click </button>
+			<buttton onBlur=""> blur </button>
+		2. external events 
+			document.querySelector("button").addEventListener("click", function(){
+			
+				// 
+			})
+			
+		innerHTML ="" 
+		// getter 
+		// setter 
+		<div id="box">
+			<h1> welcome </h1>
+		</div>
+		
+		let boxHTML = document.querySelector("#box").innerHTML; //<h1> welcome </h1>
+		document.querySelector("#box").innerHTML = "<p> venkat</p>"
+		
+		
+		let boxText = document.querySelector("#box").innerText; // welcome
+		document.querySelector("#box").innerText = "<p> venkat</p>"
+		
+		
+		DOM traverssing..

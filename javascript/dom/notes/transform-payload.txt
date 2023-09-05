@@ -1,0 +1,39 @@
+const list= [{
+		name: 'A',
+		address: {
+			country: 'India'
+		}
+	}, {
+		name: 'B',
+		address: {
+			country: 'USA'
+		}
+	}, {
+		name: 'C',
+		address: {
+			country: 'USA'
+		}
+	}, {
+		name: 'D',
+		address: {
+			country: 'India'
+		}
+	}, {
+		name: 'E',
+		address: {
+			country: 'India'
+		}
+	}, {
+		name: 'F',
+		address: {
+			country: 'UK'
+		}
+	}];
+----------------------------------------
+{
+   'India': ['A', 'D', 'E'],
+   'UK': ['F'],
+   'USA': ['B', 'C']
+};
+-----------------------------------------
+
