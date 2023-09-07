@@ -1,0 +1,38 @@
+
+	Javascript DOM
+		- selectors
+		- innerHTML, innerTEXT, classList 
+		- parentNode, 
+	---------------------------
+	Jquery - what is jquery ?
+			- jQuery is a fast, small, and feature-rich JavaScript library.
+		   - how to use it 
+			- include the jquery library in your application ..
+			
+			jquery - will give you list of functions which is written on top of javascript ...
+			
+			function $(ele){
+				return document.querySelector(ele);
+			}
+				
+				
+			document.querySelectorAll("demo");
+			
+			$("#demo")
+			$(".demo")
+			$("tag>.demo")
+			
+			document.querySelector("#demo").innerHTML="<h1> welcome </h1>";
+			$("#demo").html("<h1>welcome</h1>");
+			
+			document.querySelector("#demo").style.display="none";
+			document.querySelector("#demo").style.border="2px solid red";
+			
+			$("#demo").css({display:'none',border:'2px solid red'})
+			
+			
+			
+        DOM manipulations 
+        DOM traversing 
+        jquery Plugins... 
+		

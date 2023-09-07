@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+        <style>
+            .demo{
+                border:1px solid red;
+                padding:20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1> jquery </h1>
+        <button> show/hide</button>
+        <div id="box">
+            <img src="./images/india-gate.jpg"/>
+        </div>
+    </body>
+    <script>
+        // document.querySelector("button").addEventLister("click",function(){
+        //     //
+        // });
+        $("button").click(function(){
+            //alert("Test");
+            // document.querySelector("img").style.display="none";
+            // $("img").hide();
+            // $("img").fadeToggle();
+           // $("img").slideToggle();
+        //    document.querySelector("img").classList.add("demo");
+            // $("img").addClass("demo")
+            // $("img").toggleClass("demo");
+            $("#box").append("<h1>welcome text </h1>")
+        })
+
+
+    </script>
+</html>
