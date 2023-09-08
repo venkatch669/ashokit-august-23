@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>toggle demo</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+  <style>
+    .border{
+      color:red;
+      border: 1px solid red;
+    }
+  </style>
+</head>
+<body>
+ 
+<div class="box">
+  <ul>
+    <li> <button> red</button></li>
+    <li> <button> black</button></li>
+    <li> <button> green</button></li>
+    <li> <button> yellow</button></li>
+    <li> <button> purple</button></li>
+  </ul>
+</div> 
+<script>
+$("button").click(function() {
+  console.log( $(this))
+  // $(this).text("changed");
+    // $(this).parent().addClass("border")
+    // $(this).parent().next().next().addClass("border")
+  //  $(this).parent().nextAll().addClass("border")
+    // $(this).parent().prevAll().addClass("border")
+    $(this).parent().siblings().addClass("border")
+
+});
+</script>
+ 
+</body>
+</html>
