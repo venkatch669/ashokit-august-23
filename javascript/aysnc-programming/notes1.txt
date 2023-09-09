@@ -1,0 +1,78 @@
+topic: async programming..
+--------------------------
+ - programming.. 
+ - 
+ 
+----------------------------
+function demo(){
+
+...
+}
+var a=10;
+console.log("Welcome");
+console.log(a+4); //14
+demo();
+
+welcome
+14;
+--------------
+api - 
+	realtime data - which we want get from database ..
+	flipkart 
+		- ui -> javascript -> rest endpoints -> java -> db
+		
+		api -3+ endpoints 
+		students api 		-> response 
+		marks api 			-> respose 
+		teachers api 		-> respose 
+		
+	parllel/async programming - application performance will increase..  
+--------------------------------------------------------------------------------
+setTimeout
+setInterval
+fetch api 
+promises... 
+-----------
+
+console.log("a");		//a
+console.log("b");		//b
+setTimeout(()=>{		// move to web api 
+	console.log("c")
+},1000)
+console.log("d");
+console.log("e");
+setTimeout(()=>{		// move to web api 
+	console.log("f")
+})
+
+setTimeout - will execute only once with given time..
+setInterval - will execute repatevelly with some interval of time, 
+
+
+
+REST endpoint 
+	4 methods 
+		- get 
+		- post 
+		- put 
+		- delete 
+	- fetch api
+		facebook 
+			- logined - your able to see your data - GET
+					  - post image				 - POST 
+					  - your edit the image text - PUT (update)
+					  - delete post				 - DELETE 
+					  
+			CRUD Application 
+			CREATE 	- post 
+			READ 	- get 
+			UPDATE  - put / patch 
+			DELETE  - delete.. 
+					  
+	- XMLhttpRequest .
+	- AXIOS - Interceptors 
+		with token - this valid request -> succes - data 
+										-> error - 401(unauthroized)
+			401-> new token using refresh token 
+				token 
+				- request 
