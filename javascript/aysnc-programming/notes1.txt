@@ -30,7 +30,7 @@ api -
 --------------------------------------------------------------------------------
 setTimeout
 setInterval
-fetch api 
+fetch api (ajax)
 promises... 
 -----------
 
@@ -76,3 +76,84 @@ REST endpoint
 			401-> new token using refresh token 
 				token 
 				- request 
+				
+	- axios interceptor 
+		- it will as intermeidator 
+		- what ever request you sending it will watch - if required, it will requried headers/ body/
+		- in cases, if you 401, using refresh token - it will regenerate new token - call the same api 
+		
+		https://javascript.plainenglish.io/how-to-implement-a-request-interceptor-like-axios-896a1431304a
+		
+	- PROMISE 
+		when you call api -> resonse(succes) 
+						 -> rejected(error) 
+						 
+						 1. pending 
+						 2. resolved/fulfilled 
+						 3. rejected 
+						 
+						 
+						 
+						 -------------------------
+						 const promiseFun = new Promise(resolve, rejected){
+							setTimeout(()=>{
+								console.log(1);
+								resolve("venkat");
+							},1000)						 
+						 }
+						
+						 axios.get("http://localhost:3004/venkat").then((res)=>{
+							console.log("axios",res);
+						   }).catch((ex)=>{
+							console.log("something went wrong, pelase try again")
+						   })
+						   console.log("Weclome")
+						   ----------------
+						   
+						   let response = await axios.get("http://localhost:3004/venkat");
+						   console.log("Weclome")
+			
+			async/await - is alternative to handle the promise, and it makes your code into sync. 
+						 to solve promises hell problem we can use async/await 
+						   
+						 promiseFun.then((res)=>{
+							console.log(res);
+								promiseFun1.then((res)=>{
+									...
+									
+									promiseFun2.then(){
+										....	
+									}
+								}
+						 }).catch((err)=>{
+							console.log(err);
+						 }).finally(e){
+							...
+						 }
+						 
+						 try{
+						 
+						 ...
+						 }
+						 catch(ex){
+							...
+						 }
+						 finally(){
+							...
+						 }
+		
+		dropdown 
+		select the continent 		select country 			select state			selete ditrict
+		asia						india					
+
+
+	-------------------------
+	3 api's need to called ->3 api responses you need move forward ? 
+	
+	3 api response - 
+	1 - 2mins 
+	2- 1 sec 
+	3 - 5 mins ... 
+	Promise.all(array of promises).then((res)=>{
+		....
+	})

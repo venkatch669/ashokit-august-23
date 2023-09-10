@@ -19,6 +19,7 @@ $(document).ready(function(){
             },
             body:JSON.stringify(payload)
           })
+          console.log("Test")
     })
 
     $("#put").click(()=>{
