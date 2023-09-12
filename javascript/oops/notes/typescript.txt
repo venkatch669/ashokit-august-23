@@ -1,0 +1,49 @@
+
+	javascript 
+		- programming 
+		- DOM 
+		- oops 
+			- typescript 
+			- oops principles
+			- by using typescript how can we achieve oops..  
+		-----------------------------------------------------
+		
+		typescript .... 
+			javascript + types + features..
+			
+			let a=10; // number
+			let a:number=10;
+			
+			..
+			.
+			
+			//a=prompt("enter a value") // true, venkat 20
+			
+			
+			.
+			.
+			alert(a%0)
+			
+			1000+0 = 1000
+			1000+"0" = 10000
+			
+			funtion demo(a, b:string){
+			
+			}
+			demo(10,"venkat");
+			demo(10)
+						
+			
+			TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript. It is designed for the development of large applications and transpiles to JavaScript.
+			
+		-----
+		your browser don't know what is typescript ....
+			w3c - html,css, javascript to build  client side applications 
+				- scss, sass, 
+				- typescript -> transpiler -> javascript -> execute into browser .. 
+				- webpack, vite, parcel (bundler/ task runner's) 
+				-> react js 
+				-> CRA(create react app), VITE, nextjs 
+				
+			
+			
