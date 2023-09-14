@@ -11,7 +11,7 @@ type IStudent={
   address?:TAddress
 }
 
-function TypesDiscussion(){
+export default function TypesDiscussion(){
   let sno:number=10;
   let sname:string="venkat";
   let marks:number[]=[40,60,90,20];

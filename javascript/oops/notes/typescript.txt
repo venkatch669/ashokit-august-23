@@ -10,6 +10,7 @@
 		
 		typescript .... 
 			javascript + types + features..
+			.tsx, .ts 
 			
 			let a=10; // number
 			let a:number=10;
@@ -44,6 +45,16 @@
 				- webpack, vite, parcel (bundler/ task runner's) 
 				-> react js 
 				-> CRA(create react app), VITE, nextjs 
-				
-			
+
+				--> steps install create react app 
+						.. nodejs | GIT ..
+						1. npm install -g create-react-app
+						2. npx create-react-app typescript-app --template typescript
+						3. cd typescript-app
+						4. npm run start 
+						
+						
+						yarn, pnpm and npm ... 
+
+						
 			
