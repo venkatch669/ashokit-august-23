@@ -1,7 +1,7 @@
 // class Person{
 
 // }
-function Person(){
+export default function Person(){
     return{
         nameval:"venkat",
         getName:()=>{

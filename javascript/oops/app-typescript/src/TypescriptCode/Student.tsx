@@ -1,5 +1,6 @@
-class Demo{
-
+export class Demo{
+    fullname:string="";
+    
 }
 class Generic extends Demo{
     fullname:string='';
@@ -10,10 +11,12 @@ class Generic extends Demo{
         return this.fullname;
     }
 }
-class Student extends Generic{
+export class Student extends Generic{
     name:string="";
     no:number=0;    
-    
+    constructor(obj:any){
+        super();
+    }
     getName():string{
         return this.name;
     }
