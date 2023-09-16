@@ -1,0 +1,26 @@
+
+1. project folder structure.. .
+2. html structure from getboostrap side, along bootstrap CDN 
+3. refering the policy bazar website 
+4. menu 
+    - logo 
+    - menu we moved to right 
+    - we added submenu with ref of official website ... 
+--------------------------------------------
+5. created a selection called "selectplan"
+    5.1 - health insurance for family 
+        used the screenshot instead of creating whole html 
+    5.2. - created the form 
+        - used the bootstrap form elements 
+            - radio button 
+            - button 
+                - image  
+                - text 
+6. created the listofbuttons dynamically using javascript 
+    - created an array  
+        - name 
+        - image url 
+    - using jquery 
+        on docuemt ready (HTML,css, images after load)
+        -dynamically preparing the HTML structure 
+        - using jquery $("items") id replacing the html 

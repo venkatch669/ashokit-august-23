@@ -1,0 +1,89 @@
+.navbar-brand img{
+        width:120px
+}
+.navbar{
+
+}
+.navbar .navbar-nav{
+
+}
+.navbar-nav .nav-item:hover ul{
+        display: block;
+}
+.navbar-nav .nav-item ul{
+        padding: 10px;
+}
+.navbar-nav .nav-item a{
+        text-transform: capitalize;
+        font-size: 12px;
+        font-weight: bold; 
+}
+.navbar-nav .nav-item ul a{
+        text-decoration: none;
+        color:#666;
+}
+
+/* selected | started */
+.selected{
+        border-radius: 10px;
+        box-shadow: 1px 7px 10px 1px #ccc;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 12px;
+}
+.selected p{
+
+}
+.selected .form-check{
+
+}
+.selected .listofbuttons{
+
+}
+.selected .listofbuttons ul{
+        list-style: none;
+        padding: 0px;
+        display: table;
+        margin: 0px 10px;
+}
+.selected .listofbuttons ul li{
+        float:left;
+        width:50%;
+        margin-bottom: 10px;
+        padding: 0px 10px;
+}
+.selected .listofbuttons ul li button img{
+        width: 35px;
+        margin-right: 10px;
+        padding-left: 10px;
+}
+.selected .listofbuttons ul li button{
+        width: 100%;
+        text-align: left;
+        padding: 10px 0px;
+        font-size: 12px;
+        font-weight: bold;
+}
+.selected .listofbuttons ul li button:hover{
+        background: transparent;
+        color:#0d6efd;
+}
+.selected-options{
+
+}
+.selected-options a{
+        width:100%;    
+      
+}
+.selected-options .btn-block{
+        width:100%;
+        text-align: center;
+        margin: 10px 0px;
+}
+.selected-options .btn-block button{
+        width:50%;
+}
+.selected-options p{
+        width:100%;
+}
+/* selected | end */
