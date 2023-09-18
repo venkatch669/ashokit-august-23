@@ -24,3 +24,14 @@
         on docuemt ready (HTML,css, images after load)
         -dynamically preparing the HTML structure 
         - using jquery $("items") id replacing the html 
+--------------------18-09-23-----------------------------------
+7. add more funtinality to step-1 
+8. created step-2
+    1. prepared html structure
+    2. we dynamically prepared the age dropdowns 
+        2.1 dynamically added age options
+9. navigation from step-1 to step-2 
+10. validations while navigating to step-1 to step-2
+11. with all the validations and persisting the data, we are navigate to step-2
+------------------------------------------------------------------
+       

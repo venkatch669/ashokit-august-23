@@ -90,7 +90,7 @@
                     <img src="./images/leftbar.PNG" class="img-fluid"/>
               </div>
               <div class="col-12 col-md-5">
-                    <div class="selected">
+                    <div class="selected" id="step-1">
                          <div class="container ">
                             <div class="row">
                                 <div class="col-8 text-start">
@@ -119,44 +119,66 @@
                                 <li>
                                     <button class="btn btn-outline-primary btn-block">
                                         <img src="./images/health-self-icon.svg"/>
-                                        Self
+                                        venkat
                                      </button>
                                 </li>
-                                <li>
-                                    <button class="btn btn-outline-primary">
-                                        <img src="./images/health-self-icon.svg"/>
-                                        Self
-                                     </button>
-                                </li>
-                                <li>
-                                    <button class="btn btn-outline-primary">
-                                        <img src="./images/health-self-icon.svg"/>
-                                        Self
-                                     </button>
-                                </li>   
-                                <li>
-                                    <button class="btn btn-outline-primary">
-                                        <img src="./images/health-self-icon.svg"/>
-                                        Self
-                                     </button>
-                                </li>   
-                                <li>
-                                    <button class="btn btn-outline-primary">
-                                        <img src="./images/health-self-icon.svg"/>
-                                        Self
-                                     </button>
-                                </li>                                
+                                                              
 
                             </ul>
+                            <p class="text-danger" style="display: none;" id="step-1-error-msg"> Please select at least one member</p>
                             <div class="selected-options text-center">
                                 <a href="#" id="moreoptions"> More options </a>
                                 <div class="btn-block">
-                                    <button class="btn btn-primary"> Continue </button>
+                                    <button class="btn btn-primary" id="step1-continue"> Continue </button>
                                 </div>
                                 <p class="small">By clicking on “Continue”, you agree to our Privacy Policy and Terms of use</p>
                             </div>
                         </div>
                     </div>
+                    <div class="selected" id="step-2">
+                      <div class="container ">
+                         <div class="row">
+                             <div class="col-8 text-start">
+                                 <p class="h4">Select age of covered member</p>
+                             </div>
+                             <div class="col-4">
+                                 Percentage
+                             </div>
+                         </div>
+                     </div>
+                     <p>This will help us calculate the premium & discounts for your family
+                    </p>
+                     <div class="listofbuttons">
+                         <ul id="dropdowns">
+                             <li>
+                              <div class="row">
+                                <div class="col-2">                                  
+                                     <img src="./images/health-self-icon.svg"/>
+                                </div>
+                                <div class="col-10">
+                                    <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                  </select>
+                                </div>
+                            </li>
+                         </ul>
+                         <div class="selected-options text-center">
+                              <div class="row">
+                                <div class="col-6">
+                                   <a href="#" id="step2-back"> Previous Step </a>
+                                </div>                                
+                                <div class="col-6">
+                                    <button class="btn btn-primary"> Continue </button>
+                                </div>
+                              </div>
+                          </div>
+                         </div>
+                     </div>
+                 </div>
+                 
               </div>
 
             </div>

@@ -63,6 +63,12 @@
         padding: 10px 0px;
         font-size: 12px;
         font-weight: bold;
+        border-color: #ccc;
+        color: #777;
+}
+.selected .listofbuttons ul li button.selected-btn{
+        border-color:#0d6efd;
+        color:#0d6efd;
 }
 .selected .listofbuttons ul li button:hover{
         background: transparent;
@@ -79,6 +85,7 @@
         width:100%;
         text-align: center;
         margin: 10px 0px;
+
 }
 .selected-options .btn-block button{
         width:50%;
@@ -87,3 +94,11 @@
         width:100%;
 }
 /* selected | end */
+
+#step-2{
+        display: none;
+}
+
+#step-2 .listofbuttons ul li{
+width:100%;
+}
