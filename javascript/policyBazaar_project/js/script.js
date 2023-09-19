@@ -43,6 +43,33 @@ const obj=[
     }
 ]
 
+const cities=[
+    {
+        cityName:'Delhi',
+        pincode:440040
+    },
+    {
+        cityName:'Bengaluru',
+        pincode:440040
+    },
+    {
+        cityName:'Hyderabad',
+        pincode:440040
+    },
+    {
+        cityName:'Pune',
+        pincode:440040
+    },
+    {
+        cityName:'Mumbai',
+        pincode:440040
+    },
+    {
+        cityName:'Gurgaon',
+        pincode:440040
+    }
+];
+
 const prepareList = (no)=>{
     let items = ''
     for(let i=0;i<no;i++){
@@ -50,6 +77,14 @@ const prepareList = (no)=>{
     }
     $("#items").html(items); // html will replace selector 
     // $("#items").append(items); // append will append to the selector
+}   
+
+const prepareCities= ()=>{
+    let items = ''
+    for(let i=0;i<cities.length;i++){
+        items +=`<li><button>${cities[i].cityName}</button></li>`
+    }
+    $("#cities").html(items); 
 }   
 
 let prepareDropdowns = function(){
@@ -70,7 +105,7 @@ let prepareDropdowns = function(){
     $("#dropdowns").html(val);    
 }
 let getDropdownValues = () =>{
-    let options ='';
+    let options ='<option></option>';
     for(let i=18;i<=100;i++){
         options += `<option>${i} Years</option>`
     }
@@ -84,6 +119,7 @@ let getDropdownValues = () =>{
 
 $(document).ready(function(){
     prepareList(6);
+    prepareCities();
 });
 
 $("#moreoptions").click(()=>{
@@ -106,17 +142,58 @@ $(document).on("click","#items .btn-block",function(){
     // alert("Test")
 })
 
+$(document).on("click","#cities button",function(){ 
+    $("#cityname").val($(this).text())
+})
+
 $("#step1-continue").click(()=>{
     if(selectedValueFromStep1.length){
         $("#step-1").hide();
-        $("#step-2").show();
-       
+        $("#step-2").show();       
         prepareDropdowns();
     }
     else{
         $("#step-1-error-msg").show();
     }
 })
+
+$("#step3-continue").click(()=>{
+    let textboxvalue = $("#cityname").val();
+    $("#step3-errormsg").hide();
+    if(textboxvalue){
+
+    }
+    else{
+        $("#step3-errormsg").show();
+    }
+})
+
+$("#step2-continue").click(()=>{
+    let ageSelected = 0;
+    $(".form-select").each((e)=>{
+        if(document.getElementsByClassName("form-select")[e].value){
+            ageSelected++;
+        }
+    })
+    console.log(ageSelected);
+    $("#step2-errormsg").hide();
+    if( $(".form-select").length==ageSelected){
+        $("#step-3").show();
+        $("#step-2").hide();
+    }
+    else{
+        $("#step2-errormsg").show();
+    }
+});
+
+$("#step3-back").click((event)=>{
+    // event.preventDefault();
+    $("#step-1").hide();
+    $("#step-2").show();
+    $("#step-3").hide();
+})
+
+
 $("#step2-back").click(()=>{
     $("#step-1").show();
     $("#step-2").hide();

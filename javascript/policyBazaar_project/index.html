@@ -31,7 +31,6 @@
                     <li><a itemprop="url" href="https://www.policybazaar.com/life-insurance/term-insurance/term-insurance-for-nri-in-india/" ><span itemprop="name">Term Insurance for NRI</span></a></li> 
                     <li><a itemprop="url" href="https://www.policybazaar.com/term-insurance/term-insurance-for-women/" ><span itemprop="name">Term Insurance for Women</span><i class="ribbonmenu new"></i></a></li>
                     <li><a itemprop="url" href="https://www.policybazaar.com/term-insurance/term-insurance-for-housewife/" ><span itemprop="name">Term Insurance for Housewife</span></a></li>
-
                     <li><a itemprop="url" href="https://www.policybazaar.com/life-insurance/term-insurance/best-term-insurance-plans-in-india/" ><span itemprop="name">Best Term Insurance Plans</span></a></li> 
                     <li><a itemprop="url" href="https://www.policybazaar.com/life-insurance/" ><span itemprop="name">Life Insurance</span></a></li>
                     <li>
@@ -90,7 +89,7 @@
                     <img src="./images/leftbar.PNG" class="img-fluid"/>
               </div>
               <div class="col-12 col-md-5">
-                    <div class="selected" id="step-1">
+                    <div class="selected" id="step-1" >
                          <div class="container ">
                             <div class="row">
                                 <div class="col-8 text-start">
@@ -135,7 +134,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="selected" id="step-2">
+                    <div class="selected" id="step-2" >
                       <div class="container ">
                          <div class="row">
                              <div class="col-8 text-start">
@@ -165,13 +164,48 @@
                                 </div>
                             </li>
                          </ul>
+                         <p class="text-danger" id="step2-errormsg" style="display: none;">Please select age </p>
                          <div class="selected-options text-center">
                               <div class="row">
                                 <div class="col-6">
                                    <a href="#" id="step2-back"> Previous Step </a>
                                 </div>                                
                                 <div class="col-6">
-                                    <button class="btn btn-primary"> Continue </button>
+                                    <button class="btn btn-primary" id="step2-continue"> Continue </button>
+                                </div>
+                              </div>
+                          </div>
+                         </div>
+                     </div>
+                     <div class="selected" id="step-3" style="display:none">
+                      <div class="container ">
+                         <div class="row">
+                             <div class="col-8 text-start">
+                                 <p class="h4">Select your city</p>
+                             </div>
+                             <div class="col-4">
+                                 Percentage
+                             </div>
+                         </div>
+                     </div>
+                     <p>This will help us to find the network of Cashless Hospitals in your city
+                    </p>
+                     <div class="cities">
+                      <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Enter City Name Or Pincode" aria-label="cityorpincode" id="cityname">                      
+                      </div>
+                        <p>Popular Cities</p>
+                        <ul id="cities">
+                          
+                        </ul>
+                        <p class="text-danger" id="step3-errormsg" style="display: none;"> Required to select city </p>
+                         <div class="selected-options text-center">
+                              <div class="row">
+                                <div class="col-6">
+                                   <a href="#" id="step3-back"> Previous Step </a>
+                                </div>                                
+                                <div class="col-6">
+                                    <button class="btn btn-primary" id="step3-continue"> Continue </button>
                                 </div>
                               </div>
                           </div>
