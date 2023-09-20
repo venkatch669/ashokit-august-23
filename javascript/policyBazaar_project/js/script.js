@@ -1,74 +1,13 @@
 
 let selectedValueFromStep1=[];
-const obj=[
-    {
-        name:'Self',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'Female',
-        pathURL:'./images/health-wife-icon.svg'
-    },
-    {
-        name:'Son',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'Daugher',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'Father',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'Mother',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'Grand Father',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'Grand Mother',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'Father-in-law',
-        pathURL:'./images/health-self-icon.svg'
-    },
-    {
-        name:'mother-in-law',
-        pathURL:'./images/health-self-icon.svg'
-    }
-]
-
-const cities=[
-    {
-        cityName:'Delhi',
-        pincode:440040
-    },
-    {
-        cityName:'Bengaluru',
-        pincode:440040
-    },
-    {
-        cityName:'Hyderabad',
-        pincode:440040
-    },
-    {
-        cityName:'Pune',
-        pincode:440040
-    },
-    {
-        cityName:'Mumbai',
-        pincode:440040
-    },
-    {
-        cityName:'Gurgaon',
-        pincode:440040
-    }
-];
+let obj=[];
+let cities=[];
+const getDataFromAPI = (domain) =>{
+    return ((endpoint)=>{
+        return fetch(domain+endpoint);
+    })
+}
+const getData = getDataFromAPI("http://localhost:3004");
 
 const prepareList = (no)=>{
     let items = ''
@@ -118,8 +57,11 @@ let getDropdownValues = () =>{
 // });
 
 $(document).ready(function(){
-    prepareList(6);
-    prepareCities();
+    // prepareList(6);   
+    getData("/people").then(res => res.json()).then((res)=>{
+        obj = res;
+        prepareList(6);  
+    }); 
 });
 
 $("#moreoptions").click(()=>{
@@ -180,6 +122,10 @@ $("#step2-continue").click(()=>{
     if( $(".form-select").length==ageSelected){
         $("#step-3").show();
         $("#step-2").hide();
+        getData("/cities").then(res => res.json()).then((res)=>{
+            cities = res;
+            prepareCities();
+        });        
     }
     else{
         $("#step2-errormsg").show();
@@ -198,3 +144,5 @@ $("#step2-back").click(()=>{
     $("#step-1").show();
     $("#step-2").hide();
 })
+
+

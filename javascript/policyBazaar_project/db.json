@@ -1,0 +1,87 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "people":[
+      {
+          "name":"Self",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"Female",
+          "pathURL":"./images/health-wife-icon.svg"
+      },
+      {
+          "name":"Son",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"Daugher",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"Father",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"Mother",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"Grand Father",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"Grand Mother",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"Father-in-law",
+          "pathURL":"./images/health-self-icon.svg"
+      },
+      {
+          "name":"mother-in-law",
+          "pathURL":"./images/health-self-icon.svg"
+      }
+  ],
+  "cities":[
+    {
+        "cityName":"Delhi",
+        "pincode":440040
+    },
+    {
+        "cityName":"Bengaluru",
+        "pincode":440040
+    },
+    {
+        "cityName":"Hyderabad",
+        "pincode":440040
+    },
+    {
+        "cityName":"Pune",
+        "pincode":440040
+    },
+    {
+        "cityName":"Mumbai",
+        "pincode":440040
+    },
+    {
+        "cityName":"Gurgaon",
+        "pincode":440040
+    }
+]
+}
