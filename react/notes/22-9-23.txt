@@ -1,0 +1,34 @@
+
+	react - lib..
+	what adv. going with lib. 
+		lightweight
+		VD
+	react 
+		- CRA
+		- Vite 
+		- nextjs 
+		
+		nodejs 
+		
+		developer (nodejs & bundlers) 
+			- hot-reload 
+			- you write something- code - it run on browser - 
+			
+		install CRA 
+			1. install node.js (16+)
+			2. npm install -g create-react-app
+			3. npx create-react-app venkat-app (create project) - js version 
+				3.1. npx create-react-app venkat-app --template typescript
+				3.2. node-sass 
+				3.3. material ui
+				3.4. routing
+			4. cd venkat-app (open the project)
+			5. npm start (run the project) 
+			
+		typescript 
+			- superset of javascript (static types) 
+			-  es6 - class {
+			
+			
+			}
+			- es6 ( browser) - es6 - es5(
