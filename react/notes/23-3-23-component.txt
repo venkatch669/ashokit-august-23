@@ -1,0 +1,34 @@
+
+	react - who backed ? (meta) 
+			why react ? 
+	creating the project 
+		- CRA
+		- Vite
+		- nextjs
+		->CRA --template typescript 
+		-------------------------------
+		typescript - static typed 
+	-----------------------------------------
+	today: components
+		   - is collection of .tsx, .test. and .css | .scss  | .jss
+		   
+		   - we need to create .tsx,.test,.css  files (copied app component -> renamed to header) 
+			- index.tsx 
+			- index.css 
+			- index.test.tsx 
+			
+		   - importance 
+			 - re-usablity 
+			 
+			
+		var a=10; typeof a // number 
+		...
+		var b="venkat"// typeof b 		|| var b:string="venkat";
+		.
+		.
+		.
+		.
+		.
+		a="venkat";						|| b=10;
+		
+		console.log(a/10);

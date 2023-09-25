@@ -1,17 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App/App';
+import CopyRight from "./Footer/"
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById('venkat') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
+  <div>
     <App />
-  </React.StrictMode>
+    </div>
 );
+// web components - <div> <section>  - <venkat> - component
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
