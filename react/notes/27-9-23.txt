@@ -1,0 +1,31 @@
+
+	components
+		- state, useState.. events..
+	----------------------------------
+	fragment - reactjs - dummy tag - <> </> - to wrap your multiple html elements in obsence of html tags ..
+	
+	props:  to pass the data from parent component to child component
+	
+		let no=10;
+		<childComp val={no}/>
+		function childComp(props:any){
+			console.log(props.val);
+		}
+		
+	state : each component - its data, - component local scope is state..
+			useState(()
+			1. how to identify state changes - being useState is async.. 
+			2. life cycle 
+	
+	Events:
+			1. inline logic
+			onClick={()=>{
+              alert("test")
+            }}
+			
+	
+	parent to child - props 
+	child to parent - callback functions 
+	
+	useEffect : 
+				

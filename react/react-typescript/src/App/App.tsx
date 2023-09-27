@@ -4,44 +4,33 @@ import './App.css';
 import Header from '../Header';
 import Footer from '../Footer';
 import CopyRight from "../Footer/CopyRight"
-import TrainingCard from "../TrainingCard"
+import TrainingCard from "../TrainingCard";
+import CourseCard from '../CourseCard';
+import trainingtypes from "../Constants"
 function App() {
-  let no:number=11110;
-  const trainingtypes =   [
-    {
-      imgpath:"https://www.ashokitech.com/assets/frontend/images/classroom-training.png", 
-      title:"online training",  
-      color:"green"
-    },
-    {
-      imgpath:"https://www.ashokitech.com/assets/frontend/images/corporate-training.png", 
-      title:"coporate training",
-      color:"#fc7e14"
-    },
-    {
-      imgpath:"https://www.ashokitech.com/assets/frontend/images/on-campus-training.png",
-      title:"classroom training",
-      color:"#4588c0"
-    },
-    {
-      imgpath:"https://www.ashokitech.com/assets/frontend/images/conference.png",
-      title:"Weekend Workshops",
-      color:"#8764c2"
-    }
-  ]
-  
+  let no:number=11110; 
   return (
     <div className="App">
       {/* <Header no={no}/>
         <h1> app componens </h1>
       <Footer/>
       <CopyRight/> */}
-      {trainingtypes.map((e:any)=>
-        <TrainingCard 
-        imgpath={e.imgpath}
-        title={e.title} 
-        color={e.color}/>        
-      )}
+      {/* 25-9-23 : session */}
+      {/* <div className='container'>
+        <div className="row">
+          {trainingtypes.map((e:any)=>
+            <div className="col4">
+              <TrainingCard 
+              imgpath={e.imgpath}
+              title={e.title} 
+              color={e.color}/>        
+            </div>
+          )}
+        </div>
+      </div> */}
+      <div className='container'>
+        <CourseCard/>      
+      </div>
 
      </div>
   );

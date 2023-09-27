@@ -4,6 +4,7 @@
     border-bottom-right-radius: 14px;
     margin: 11px;
     padding: 9px;
+    width:100%;
 }
 .card img{
     width: 34px;
