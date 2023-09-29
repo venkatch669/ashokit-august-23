@@ -7,6 +7,7 @@ import CopyRight from "../Footer/CopyRight"
 import TrainingCard from "../TrainingCard";
 import CourseCard from '../CourseCard';
 import trainingtypes from "../Constants"
+import ImgComp from '../ImgComp';
 function App() {
   let no:number=11110; 
   return (
@@ -28,10 +29,11 @@ function App() {
           )}
         </div>
       </div> */}
-      <div className='container'>
+      {/* <div className='container'>
         <CourseCard/>      
-      </div>
-
+      </div> */}
+      <ImgComp text="welcome to react"/>
+      <ImgComp text="welcome to ashok it"/>
      </div>
   );
 }

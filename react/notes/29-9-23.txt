@@ -1,0 +1,42 @@
+
+	state and props.
+	
+	component life cycle...
+	
+		-> class component 
+			- life cycle 
+			class App extends React.Component{
+				constructor(){
+					this.state={
+						name:"venkat"
+					}
+				}
+				render(){
+					<div> welcome</div>
+				}
+			}
+		-> functional component react16+
+			- life cycle 
+			const[data, setData] = useState({name:"venkat"});
+			function App(){
+				return(){
+					<div> welcome </div>
+				}
+			}
+			----
+			
+			::interviw questions::
+				1. what is diff class component / functional componentd
+				2. which is one is recomm.  why ?
+				3. error boundaries.
+				4. reconciliation(react-fiber)
+				5. virtual dom : (diff alg)
+					a. is copy of real dom
+					b. state/props change -> it wont' directly update into real dom 
+					c. update the copy of dom, 
+					d. diff between copy of dom and real dom 
+					e. which ever are differ those only going to update in real dom 
+					
+				
+				
+		
