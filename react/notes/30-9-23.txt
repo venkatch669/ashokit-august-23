@@ -1,0 +1,51 @@
+
+const inter = setInterval(()=>{
+	console.log(new Date());
+},1000);
+
+
+
+
+component life cycle
+	componentDidmount(){ //html,css, databindings - are done.. 
+		const inter = setInterval(()=>{
+			console.log(new Date());
+		},1000);
+		
+		// api call fetch(()=>{
+			//50mb * 10 = 
+		});
+		
+	}
+	
+	componentWillunMount(){ // about to remove from DOM 
+		clearInterval(inter); 
+	}
+
+javascript single thread...  -> peformance problem 
+
+
+
+// did update..
+useEffect(()=>{
+
+})
+
+
+// did mount..
+useEffect(()=>{},[])
+
+
+// did update with specific state/prop change..
+useEffect(()=>{
+
+},[props.title])
+
+// did unmount..
+useEffect(()=>{
+        return(()=>{
+                console.log("unmount")
+        })
+},[])
+
+

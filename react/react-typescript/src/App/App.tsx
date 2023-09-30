@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Header from '../Header';
@@ -8,8 +8,11 @@ import TrainingCard from "../TrainingCard";
 import CourseCard from '../CourseCard';
 import trainingtypes from "../Constants"
 import ImgComp from '../ImgComp';
+import ImgCompFun from "../ImgCompFunc";
+
 function App() {
   let no:number=11110; 
+  const [hide, setHide] = useState(false);
   return (
     <div className="App">
       {/* <Header no={no}/>
@@ -32,8 +35,8 @@ function App() {
       {/* <div className='container'>
         <CourseCard/>      
       </div> */}
-      <ImgComp text="welcome to react"/>
-      <ImgComp text="welcome to ashok it"/>
+	  <button onClick={()=> setHide(!hide)}> toggle ImgComp</button>
+	    {hide ? <ImgCompFun text="welcome to react"/> : null}
      </div>
   );
 }

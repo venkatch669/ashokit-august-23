@@ -1,15 +1,28 @@
 import React from "react";
 
 export default class ImgComp extends React.Component<any, any>{
-    constructor(props:any){
+    constructor(props:any){ // intilization
         super(props);
         this.state={name:"rajesh"};
-        console.log("constructor-1")
+        console.log("constructor: Step-A - Step1")
     }
     componentDidMount(): void {
-        console.log("did mount-2")
+        console.log("did mount - html/css is rendered : step-B");
+        fetch('https://jsonplaceholder.typicode.com/todos/1')
+        .then(response => response.json())
+        .then(json => console.log(json))
     }
+    componentDidUpdate(prevProps: Readonly<any>, prevState: Readonly<any>, snapshot?: any): void {
+        console.log("did update - state/props changes: step-C")
+    }
+    componentWillUnmount(): void {
+        console.log("unmount - removing from DOM: step-D")
+    }
+    // componentDidCatch(error: Error, errorInfo: React.ErrorInfo): void {
+        
+    // }
     render()  {
+        console.log("rendering : step-E")
         return(
             <> 
             {/* //React.Fragment */}
