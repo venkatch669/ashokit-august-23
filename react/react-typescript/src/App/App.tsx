@@ -9,14 +9,31 @@ import CourseCard from '../CourseCard';
 import trainingtypes from "../Constants"
 import ImgComp from '../ImgComp';
 import ImgCompFun from "../ImgCompFunc";
+import ErrorBoundary from "../ErrorBoundary"
 
 function App() {
   let no:number=11110; 
   const [hide, setHide] = useState(false);
+  const [text, setText] = useState("welcome to react");
+  const changeFun = (name:any) =>{
+    console.log(name);
+    setText(name);
+  }
   return (
     <div className="App">
-      {/* <Header no={no}/>
-        <h1> app componens </h1>
+          
+        
+          {/* <ErrorBoundary>  */}
+            <Header courseTitle={"React Course"}/>
+          {/* </ErrorBoundary>  */}
+          <ErrorBoundary> 
+            <>
+              <button onClick={()=> setHide(!hide)}> toggle ImgComp</button>
+              {hide ? <ImgCompFun text={text} changeName={changeFun}/> : null}
+            </>
+          </ErrorBoundary>
+
+             {/*  <h1> app componens </h1>
       <Footer/>
       <CopyRight/> */}
       {/* 25-9-23 : session */}
@@ -35,8 +52,8 @@ function App() {
       {/* <div className='container'>
         <CourseCard/>      
       </div> */}
-	  <button onClick={()=> setHide(!hide)}> toggle ImgComp</button>
-	    {hide ? <ImgCompFun text="welcome to react"/> : null}
+
+
      </div>
   );
 }

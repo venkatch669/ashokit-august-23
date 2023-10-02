@@ -4,8 +4,9 @@ import './index.css';
 
 function Header(props:any) {
   return (
-    <h1> Header component {props.no}</h1>
+    <h1> {props.courseTitle}</h1>
   );
 }
 
 export default Header;
+

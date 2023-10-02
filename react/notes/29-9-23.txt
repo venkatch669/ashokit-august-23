@@ -37,6 +37,25 @@
 					2.1 - performance.. 
 					
 				3. error boundaries.
+					- to prevent the app broking 
+						- being is javascript app, where ever you have whole app going broke 
+						- try and catch ( programatically) 
+						- ErrorBoundary - message(component) - you wrap with multiple elements as it Common component 
+						
+					- HOC (higher order component) 
+						- take component as input, return the component with adding some extra params if required, or return new component 
+						
+						
+						  <React.StrictMode>
+							<App />
+						  </React.StrictMode>
+						  
+					- pure component - it will take data, it will render the data( no other resp.. like update the state) 
+						// containers -  state(local/global state)
+						// components - to render given data..
+					- impure component - which will render the data along with state manipulations 
+					- controlled 		- we have component with forms(inut, checkbox, radio), 
+					- uncontrolled component - which component don't any form elements 
 				4. reconciliation(react-fiber)
 				5. virtual dom : (diff alg)
 					a. is copy of real dom
@@ -44,6 +63,39 @@
 					c. update the copy of dom, 
 					d. diff between copy of dom and real dom 
 					e. which ever are differ those only going to update in real dom 
+				5. component to component
+					App 
+						const getImgName = (a) =>{
+							console.log("getImgName", a);
+						}
+						<imgcomp url="path" getFun={getImgName}/>
+						
+							<button onclick={()=>{
+								props.getFun("Test");
+							}> 
+							parent - child => props 
+							child - parent => 
+					
+					5.1 - props - drilldown 
+						- its advatange 
+						- its disadvtange -  unnecceary middle componentes going to re-rendered 
+							- statemanagement lib.s 
+								- react-context api 
+								- redux 
+								
+							<App>
+								name="venkat"
+								changeTitle= ()=>{
+									setName("rajesh");
+								}
+								
+								<dashboard title={name}>
+										<layout title={title}>
+											<home title={title}>
+												<menu title={title}> 
+														list - {title}
+														<button> changetitle </button>
+						
 					
 				
 				

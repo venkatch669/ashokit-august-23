@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 export default function ImgCompFun(props:any){   
-    const [name, setName]= useState<any>({name:"rajesh"});
+    const [name, setName]= useState<any>({});
+    const [record, setRecord]= useState<any>();
 
     // did mount 
     useEffect(()=>{
@@ -20,11 +21,20 @@ export default function ImgCompFun(props:any){
     useEffect(()=>{
         console.log("did update - on name change")
     },[name]);
+
+    // useEffect(()=>{
+    //     if(record.name=="venkat"){
+    //         // ....
+    //     }
+    // },[record, name])
     
     useEffect(()=>{
+        console.log(name.venkat);
+        console.log(name.venkat.fullname)
         return(()=>{
          console.log("unmount - removing from DOM: step-D")
         });
+        
     },[]);
 
     return(
@@ -36,8 +46,9 @@ export default function ImgCompFun(props:any){
             {/* ankit */}
             <button onClick={()=>{
                 // setState({name:"ankit", no:1});
-                setName({name:"ankit", no:1});
-                console.log("---", name);                  // rajesh 
+               // setName({name:"ankit", no:1});
+                props.changeName("welcoem to ashok it")
+                //console.log("---", name);                  // rajesh 
             }}> change the name</button>
         </>
     )
