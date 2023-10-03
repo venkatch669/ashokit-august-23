@@ -1,0 +1,21 @@
+topic: folder of create-react-app
+		folder structure
+			index.tsx
+			index.html 
+			package.lock.json 
+			package.json 
+				
+		third party depedencies... 
+			1. mui
+				ui framework 
+					- button 
+					- dialog 
+					- table 
+			- params..	
+				- no.of downloads
+				- publish
+				- licence
+		
+		https://reactrouter.com/en/main
+		https://mui.com/material-ui/react-card/
+		https://react-bootstrap.netlify.app/
