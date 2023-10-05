@@ -1,0 +1,22 @@
+.Header{
+
+}
+.Header nav {
+    width: 100%;
+    display: table;
+}
+.Header nav ul{
+    list-style: none;
+    padding: 0px;
+    float: right;
+    margin: 0px;
+}
+.Header nav ul  li{
+    float: left;
+    margin: 0px 10px;
+}
+.Header nav ul li a{
+    color: white;
+    text-transform: capitalize;
+    font-size: 16px;
+}
