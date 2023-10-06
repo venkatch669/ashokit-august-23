@@ -1,0 +1,40 @@
+topic: nested & dynamc routing...
+-------------------------------------
+	<Router>
+		<Route path="/" component={home}/>
+		<Router path="about" component={About}/>
+	</Router>
+	
+	dyanmic routing ..
+	
+	home
+		product list 
+			product detail 
+				add to cart 
+					checkout 
+					
+
+sunday   - developer tools 
+saturday - materialui & typescript & scss  7.30 = 9.30pm
+----------------------------------
+
+
+
+
+
+
+
+
+
+
+http calls ... 
+-------------
+    adv. react.js 
+        useState
+        useEffect 
+            usecallback 
+            usememo 
+            context api 
+            redux 
+    take a project 
+saturday & sunday - 
