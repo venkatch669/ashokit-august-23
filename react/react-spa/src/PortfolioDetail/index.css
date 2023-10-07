@@ -1,0 +1,8 @@
+.Portfolio{
+    text-align: left;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.Portfolio img{
+    width:90%;
+}

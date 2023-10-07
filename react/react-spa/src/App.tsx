@@ -13,9 +13,11 @@ import Footer from './Footer';
 import Development from './Services/Development';
 import Training from './Services/Training';
 import Consulting from './Services/Consulting';
+import PortfolioDetail from './PortfolioDetail';
 function App() {
   return (
     <div className="App">
+      {/* http://localhost:3000/portfoliodetails */}
       <Header/>
       <Routes>        
           <Route path="/"  element={<Home />} />
@@ -27,6 +29,7 @@ function App() {
           </Route>
           <Route path="contactUs" element={<ContactUs />} />
           <Route path="portfolio" element={<Portfolio />} />
+          <Route path="portfoliodetails/:name/:id" element={<PortfolioDetail />} />
           <Route path="*" element={<NoMatch />} />          
       </Routes>
       <Footer/>

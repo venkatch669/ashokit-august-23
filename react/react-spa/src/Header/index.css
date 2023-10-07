@@ -19,4 +19,9 @@
     color: white;
     text-transform: capitalize;
     font-size: 16px;
+    text-decoration: none;
+}
+
+.Header nav ul li a.active{
+    text-decoration: underline;
 }

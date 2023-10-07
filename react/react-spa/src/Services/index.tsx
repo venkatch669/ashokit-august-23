@@ -1,5 +1,5 @@
 import { Link, Outlet } from 'react-router-dom';
-import './index.css';
+import './index.scss';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
 

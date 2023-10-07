@@ -6,11 +6,11 @@ import microsoft from "../images/microsoft.png"
 const trainingtypes =   [
   {
     imgpath:google, 
-    title:"Google",  
+    title:"google",  
   },
   {
     imgpath:microsoft, 
-    title:"Microsoft",  
+    title:"microsoft",  
   }
 ]
 function Portfolio() {
