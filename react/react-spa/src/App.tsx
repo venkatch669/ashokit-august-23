@@ -17,7 +17,7 @@ import PortfolioDetail from './PortfolioDetail';
 function App() {
   return (
     <div className="App">
-      {/* http://localhost:3000/portfoliodetails */}
+      {/* http://localhost:3000/portfoliodetails */}    
       <Header/>
       <Routes>        
           <Route path="/"  element={<Home />} />

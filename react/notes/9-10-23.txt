@@ -1,0 +1,4 @@
+1. axios module - why we need to use - metric to be considered 
+2. how to install (npm install axios)
+3. updated our restuil/index.ts file as per axios syntax
+4. updated the where we are calling the common functions

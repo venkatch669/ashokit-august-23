@@ -3,6 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Student from "./Student"
 import { TStudent } from './types/TStudent';
+import Post from "./Post";
+import Photos from "./Photos";
 function App() {
   let no:number=10;
   let studentObj:TStudent[]=[
@@ -34,7 +36,9 @@ function App() {
   return (
     <div>
       <h1> Typescript </h1>
-       <Student obj={studentObj} name="venkat"/>
+       {/* <Student obj={studentObj} name="venkat"/> */}
+       <Post/>
+       {/* <Photos/> */}
     </div>
   );
 }
