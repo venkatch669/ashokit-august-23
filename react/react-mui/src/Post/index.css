@@ -1,0 +1,15 @@
+.addnewrecord{
+
+}
+.addnewrecord ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.addnewrecord ul li{
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.addnewrecord button{
+    margin:0px 10px
+}

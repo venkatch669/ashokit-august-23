@@ -35,7 +35,7 @@ function App() {
   }
   return (
     <div>
-      <h1> Typescript </h1>
+      <h1> CRUD app </h1>
        {/* <Student obj={studentObj} name="venkat"/> */}
        <Post/>
        {/* <Photos/> */}

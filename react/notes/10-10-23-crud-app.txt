@@ -1,0 +1,28 @@
+
+	today- api integration with react.. 
+			- fetch 
+			- axios
+			- redux 
+	next week- adv. featues
+	
+	CRUD application - nodejs api into our react app..
+	
+	C	 - create - POST 
+	R    - read -GET
+	U     - update - PUT 
+	D 	- Delete - DELETE 
+	
+	to test the endpoints..
+		swagger documentation..
+		postman 
+			desktop
+			webapp 
+			
+	JSON-server - npm module 
+				- where we can create quickly real-time endpoints 
+				- by default it will give 
+					/comments
+					/profile
+					/post 
+				- if requried we can customize it 
+	

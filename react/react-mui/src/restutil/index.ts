@@ -1,11 +1,11 @@
 import axios from 'axios';
-const URL='https://jsonplaceholder.typicode.com';
+const URL='http://localhost:3000';
 export const getAPI = (pathVariable:string)=>{
     return axios.get(URL+pathVariable)
 }
 
 export const postAPI = (pathVariable:string, body:any)=>{
-    return axios.post(URL+pathVariable, JSON.stringify(body))
+    return axios.post(URL+pathVariable, body)
 }
 
 export const deleteAPI = (pathVariable:string)=>{

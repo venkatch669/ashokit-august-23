@@ -1,59 +1,96 @@
 import { useEffect, useState } from "react";
-import Table from '@mui/material/Table';
-import TableBody from '@mui/material/TableBody';
-import TableCell from '@mui/material/TableCell';
-import TableContainer from '@mui/material/TableContainer';
-import TableHead from '@mui/material/TableHead';
-import TableRow from '@mui/material/TableRow';
-import Paper from '@mui/material/Paper';
-import { getAPI } from "../restutil";
-function Post() { 
+import Box from '@mui/material/Box';
+import Grid from '@mui/material/Grid';
+import TableComp from "../Components/TableComp";
+import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button';
+import './index.css';
+
+
+import { getAPI, postAPI } from "../restutil";
+import { Typography } from "@mui/material";
+function Post() {
   const [tableData, setTableData] = useState([]);
-  useEffect(()=>{
-    getAPI('/posts2').then((res:any)=>{
-      setTableData(res.data);
-    }).catch((e)=>{
-      console.log("error occured", e);
-    })
+  const [isUpdate, setIsUpdate] = useState(false);
+  const [record, setRecord] = useState({
+    userid:'',
+    title:'',
+    body:''
+  });
+  useEffect(() => {
+    getDataFromAPI();
     // :: fetch implementation ::
     // getAPI('/posts').then((e:any)=> e.json()).then((res:any)=>{
     //   setTableData(res);
     // }).catch((e)=>{
 
     // });
-    
-  },[]);
+  }, []);
+
+  const getDataFromAPI = () =>{
+    getAPI('/posts').then((res: any) => {
+      setTableData(res.data);
+    }).catch((e) => {
+      console.log("error occured", e);
+    })
+  }
+  const saveFun = () =>{
+    console.log(record);
+    postAPI("/posts", record).then((e)=>{
+      console.log("succefully created");
+      getDataFromAPI();
+    }).catch((e)=>{
+      console.error("something went wrong", e);
+    })
+  }
+  const clearFun = () =>{
+    setRecord({
+      userid:'',
+      title:'',
+      body:''
+    });
+  }
+
+  const setRecordFun =(data:any) =>{
+    setRecord(data);
+    setIsUpdate(true);
+    // console.log(data);
+  }
+  const updateFun =() =>{
+    console.log("update");
+  }
+  
+
   return (
     <div>
-      <h1> Post </h1>
-      <TableContainer component={Paper}>
-      <Table sx={{ minWidth: 650 }} aria-label="simple table">
-        <TableHead>
-          <TableRow>
-            <TableCell>UserId</TableCell>
-            <TableCell align="right">id</TableCell>
-            <TableCell align="right">title</TableCell>
-            <TableCell align="right">body</TableCell>
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {tableData?.map((row:any) => (
-            <TableRow
-              key={row.id}
-              sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-            >
-              <TableCell component="th" scope="row">
-                {row.userId}
-              </TableCell>
-              <TableCell align="right">{row.id}</TableCell>
-              <TableCell align="right">{row.title}</TableCell>
-              <TableCell align="right">{row.body}</TableCell>
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </TableContainer>
-
+      <Box sx={{ flexGrow: 1 }}>
+        <Grid container spacing={2}>
+          <Grid item xs={6}>
+            <TableComp tableData={tableData} setRecordFun={setRecordFun}/>
+          </Grid>
+          <Grid item xs={6}>           
+            <div className="addnewrecord">
+              <Typography> new record </Typography>
+              <ul>
+                <li> <TextField id="userId" label="User Id" variant="standard" value={record.userid} onChange={(event)=>{
+                  setRecord({...record, userid:event?.target.value})
+                }}/> </li>
+                <li> <TextField id="title" label="title" variant="standard" value={record.title} onChange={(event)=>{
+                  setRecord({...record, title:event?.target.value})
+                }}/></li>
+                <li> <TextField id="body" label="body" variant="standard" value={record.body} onChange={(event)=>{
+                  setRecord({...record, body:event?.target.value})
+                }}/></li>
+                <li>
+                  {isUpdate ? <Button variant="contained" onClick={updateFun}>Update</Button> : 
+                  <Button variant="contained" onClick={saveFun}>Save</Button>}
+                  <Button variant="outlined" onClick={clearFun}>Clear</Button>
+                </li>
+              </ul>
+            </div>
+          </Grid>
+        </Grid>
+      </Box>
     </div>
   );
 }
