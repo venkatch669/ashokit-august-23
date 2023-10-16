@@ -1,0 +1,10 @@
+redux.. 
+	-->
+		1. add the required dep.
+		2. create store 
+		3. add wrapper for app component 
+		4. create slice /reduce file 
+		5. Add Slice Reducers to the Store
+		6. Use Redux State and Actions in React Components
+	--> 
+	
