@@ -1,0 +1,35 @@
+.addtocart{
+    background: blue;
+    display: table;
+    width: 100%;
+}
+.addtocart h1{
+    float:left;
+}
+.addtocart .icon{
+    float:right;
+}
+.addtocart .icon span{
+    width: 10px;
+    height: 14px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    display: block;
+    padding: 10px 10px;
+    font-size: 12px;
+    padding-top: 4px;
+    float: left;
+    margin-top: 13px;
+    left: 16px;
+    position: relative;
+}
+.addtocart .icon img{
+  
+    width:50px;
+    margin-top:20px;
+}
+.conatiner{
+    width:1170px;
+    margin: 0 auto;
+}
