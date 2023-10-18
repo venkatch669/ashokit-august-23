@@ -1,0 +1,9 @@
+.spinner{
+    position: fixed;
+    background: rgb(128 128 128 / 50%);
+    width: 100%;
+    left: 0px;
+    height: 100%;
+    text-align: center;
+    padding-top: 20%;
+}

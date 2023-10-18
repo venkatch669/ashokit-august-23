@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import { Provider } from 'react-redux'
 import { store } from './app/store';
 import ProductContainer from "./ProductContainer"
+import Users from './Users';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <Provider  store={store}>
-    <ProductContainer />
+    <Users />
   </Provider>
 );
 

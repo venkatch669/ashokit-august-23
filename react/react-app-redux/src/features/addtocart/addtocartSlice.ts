@@ -5,6 +5,7 @@ export const fetchProducts = createAsyncThunk(
   'addtocart/fetchProducts',
   async () => {
     const response = await fetch('https://dummyjson.com/products').then((res)=> res.json());
+    console.log(response);
     return response;
   }
 )
