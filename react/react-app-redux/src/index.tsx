@@ -7,13 +7,14 @@ import { Provider } from 'react-redux'
 import { store } from './app/store';
 import ProductContainer from "./ProductContainer"
 import Users from './Users';
+import ParentComponent from './ParentComponent';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <Provider  store={store}>
-    <Users />
+    <ParentComponent/>
   </Provider>
 );
 
