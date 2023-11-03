@@ -1,0 +1,57 @@
+
+
+	nodejs
+		-----> 1)client side 
+				- it will work on browser 
+				- it can't do (CRUD) by language it self.(api)
+			   2) server side 
+				- it can't access the browser 
+					- we can't do dom manipulation 
+				- it can do crud operation, writing the file, creating the file..
+				
+			--> javascript 
+				client side 
+					angular, react, ...
+				server side
+					nodejs 
+						- server side ....
+						- to learn nodejs 
+							- vs code 
+							- nodejs 
+							- javascript 
+						- docs 
+						- why we need to learn nodejs 
+							nodejs 				| java 
+							streaming 			
+							socket programming
+							
+							crud  
+								- archi..
+								- rest endpoints
+								- to connect the db (oracle, mysql) 
+								- service layer
+									- connect the db
+									- get the data -> transfom the data into UI format
+								-middlelayer 
+									- expres.js
+							MERN.JS 
+							Mean.js 
+							
+							mongodb			- nosql(json|collection) | sql ( table )
+							expresjs 
+							angular | react 
+							nodejs 
+							
+						- which lang are used to develop nodejs 
+							v8 + c++
+							- chrome engine. 
+							- event loop
+							- callback 
+							
+						
+							
+							
+							
+						
+			   
+		
