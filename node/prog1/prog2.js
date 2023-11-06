@@ -20,6 +20,7 @@ const data =[
     }
 ];
 
+console.log("A");
 fs.writeFile("./demo.json", JSON.stringify(data),(err)=>{
     if(err){
         console.log("something went wrong,please try again")
@@ -28,7 +29,7 @@ fs.writeFile("./demo.json", JSON.stringify(data),(err)=>{
         console.log("file created, successfully");
     }
 })
-
+console.log("B");
 fs.readFile("./demo.json",'utf8',(err,res)=>{
     if(err){
         console.log("no file found");
@@ -36,3 +37,4 @@ fs.readFile("./demo.json",'utf8',(err,res)=>{
         console.log(res);
     }
 });
+console.log("C");
